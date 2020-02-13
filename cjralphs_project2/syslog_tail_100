@@ -1,102 +1,102 @@
 caleb@caleb-VirtualBox:~/operating_systems/cjralphs_project2$ tail -n 100 /var/log/syslog
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.584455] User 1000 is opening file: /etc/group
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.584484] User 1000 is closing file descriptor: 5
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.584493] User 1000 is opening file: /etc/nsswitch.conf
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.584517] User 1000 is closing file descriptor: 5
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.584830] User 1000 is opening file: /proc/sys/kernel/ngroups_max
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.584842] User 1000 is closing file descriptor: 8
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.584868] User 1000 is opening file: /etc/group
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.584917] User 1000 is closing file descriptor: 8
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.584932] User 1000 is opening file: /etc/group
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.584947] User 1000 is closing file descriptor: 8
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585166] User 1000 is opening file: /etc/pam.d/sudo
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585186] User 1000 is opening file: /lib/i386-linux-gnu/security/pam_env.so
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585212] User 1000 is closing file descriptor: 9
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585262] User 1000 is opening file: /etc/pam.d/common-auth
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585287] User 1000 is opening file: /lib/i386-linux-gnu/security/pam_unix.so
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585311] User 1000 is closing file descriptor: 10
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585319] User 1000 is opening file: /usr/lib/sudo/libcrypt.so.1
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585324] User 1000 is opening file: /etc/ld.so.cache
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585330] User 1000 is closing file descriptor: 10
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585343] User 1000 is opening file: /lib/i386-linux-gnu/libcrypt.so.1
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585367] User 1000 is closing file descriptor: 10
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585496] User 1000 is opening file: /lib/i386-linux-gnu/security/pam_deny.so
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585554] User 1000 is closing file descriptor: 10
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585576] User 1000 is opening file: /lib/i386-linux-gnu/security/pam_permit.so
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585600] User 1000 is closing file descriptor: 10
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585625] User 1000 is closing file descriptor: 9
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585633] User 1000 is opening file: /etc/pam.d/common-account
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585654] User 1000 is closing file descriptor: 9
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585659] User 1000 is opening file: /etc/pam.d/common-session-noninteractive
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585684] User 1000 is opening file: /lib/i386-linux-gnu/security/pam_umask.so
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585704] User 1000 is closing file descriptor: 10
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585741] User 1000 is closing file descriptor: 9
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585745] User 1000 is closing file descriptor: 8
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585767] User 1000 is opening file: /etc/pam.d/other
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585783] User 1000 is opening file: /etc/pam.d/common-auth
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585804] User 1000 is closing file descriptor: 9
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585809] User 1000 is opening file: /etc/pam.d/common-account
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585831] User 1000 is closing file descriptor: 9
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585837] User 1000 is opening file: /etc/pam.d/common-password
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585863] User 1000 is opening file: /lib/i386-linux-gnu/security/pam_gnome_keyring.so
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585886] User 1000 is closing file descriptor: 10
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585946] User 1000 is closing file descriptor: 9
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585953] User 1000 is opening file: /etc/pam.d/common-session
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.585984] User 1000 is opening file: /lib/i386-linux-gnu/security/pam_systemd.so
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.586008] User 1000 is closing file descriptor: 10
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.586018] User 1000 is opening file: /usr/lib/sudo/librt.so.1
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.586023] User 1000 is opening file: /etc/ld.so.cache
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.586030] User 1000 is closing file descriptor: 10
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.586039] User 1000 is opening file: /lib/i386-linux-gnu/librt.so.1
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.586064] User 1000 is closing file descriptor: 10
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.586072] User 1000 is opening file: /usr/lib/sudo/libpam_misc.so.0
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.586079] User 1000 is opening file: /lib/i386-linux-gnu/libpam_misc.so.0
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.586103] User 1000 is closing file descriptor: 10
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.586109] User 1000 is opening file: /usr/lib/sudo/libgcc_s.so.1
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.586118] User 1000 is opening file: /lib/i386-linux-gnu/libgcc_s.so.1
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.586136] User 1000 is closing file descriptor: 10
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.586369] User 1000 is closing file descriptor: 9
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.586373] User 1000 is closing file descriptor: 8
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.586384] User 1000 is opening file: /var/run/sudo/ts/caleb
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.586392] User 1000 is opening file: /proc/stat
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.586426] User 1000 is closing file descriptor: 9
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.589063] User 1000 is closing file descriptor: 8
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.589192] User 1000 is closing file descriptor: 5
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.589294] User 1000 is closing file descriptor: 3
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.589302] User 1000 is closing file descriptor: 4
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.589321] User 1000 is opening file: /etc/passwd
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.589329] User 1000 is opening file: /etc/group
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.589337] User 1000 is opening file: /etc/passwd
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.589356] User 1000 is closing file descriptor: 8
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.589363] User 1000 is closing file descriptor: 3
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.589368] User 1000 is closing file descriptor: 4
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.589378] User 1000 is opening file: /etc/passwd
-Feb 13 12:37:40 caleb-VirtualBox kernel: [ 3676.589394] User 1000 is closing file descriptor: 3
-Feb 13 12:38:07 caleb-VirtualBox dbus[702]: [system] Activating service name='org.debian.apt' (using servicehelper)
-Feb 13 12:38:08 caleb-VirtualBox AptDaemon: INFO: Initializing daemon
-Feb 13 12:38:08 caleb-VirtualBox org.debian.apt[702]: 12:38:08 AptDaemon [INFO]: Initializing daemon
-Feb 13 12:38:08 caleb-VirtualBox dbus[702]: [system] Successfully activated service 'org.debian.apt'
-Feb 13 12:38:09 caleb-VirtualBox AptDaemon.PackageKit: INFO: Initializing PackageKit compat layer
-Feb 13 12:38:09 caleb-VirtualBox org.debian.apt[702]: /usr/lib/python3/dist-packages/aptdaemon/worker/pkworker.py:35: PyGIWarning: PackageKitGlib was imported without specifying a version first. Use gi.require_version('PackageKitGlib', '1.0') before import to ensure that the right version gets loaded.
-Feb 13 12:38:09 caleb-VirtualBox org.debian.apt[702]:   from gi.repository import PackageKitGlib as pk
-Feb 13 12:38:09 caleb-VirtualBox org.debian.apt[702]: 12:38:09 AptDaemon.PackageKit [INFO]: Initializing PackageKit compat layer
-Feb 13 12:38:09 caleb-VirtualBox AptDaemon: INFO: UpdateCache() was called
-Feb 13 12:38:09 caleb-VirtualBox org.debian.apt[702]: 12:38:09 AptDaemon [INFO]: UpdateCache() was called
-Feb 13 12:38:09 caleb-VirtualBox AptDaemon.Trans: INFO: Queuing transaction /org/debian/apt/transaction/8eb176c8a6914499ae00dfb4274628d1
-Feb 13 12:38:09 caleb-VirtualBox org.debian.apt[702]: 12:38:09 AptDaemon.Trans [INFO]: Queuing transaction /org/debian/apt/transaction/8eb176c8a6914499ae00dfb4274628d1
-Feb 13 12:38:09 caleb-VirtualBox AptDaemon.Worker: INFO: Simulating trans: /org/debian/apt/transaction/8eb176c8a6914499ae00dfb4274628d1
-Feb 13 12:38:09 caleb-VirtualBox org.debian.apt[702]: 12:38:09 AptDaemon.Worker [INFO]: Simulating trans: /org/debian/apt/transaction/8eb176c8a6914499ae00dfb4274628d1
-Feb 13 12:38:09 caleb-VirtualBox AptDaemon.Worker: INFO: Processing transaction /org/debian/apt/transaction/8eb176c8a6914499ae00dfb4274628d1
-Feb 13 12:38:09 caleb-VirtualBox org.debian.apt[702]: 12:38:09 AptDaemon.Worker [INFO]: Processing transaction /org/debian/apt/transaction/8eb176c8a6914499ae00dfb4274628d1
-Feb 13 12:38:10 caleb-VirtualBox AptDaemon.Worker: INFO: Updating cache
-Feb 13 12:38:10 caleb-VirtualBox org.debian.apt[702]: 12:38:10 AptDaemon.Worker [INFO]: Updating cache
-Feb 13 12:38:12 caleb-VirtualBox org.gnome.zeitgeist.SimpleIndexer[1041]: ** (zeitgeist-fts:1695): WARNING **: Unable to get info on application://nautilus-autostart.desktop
-Feb 13 12:38:27 caleb-VirtualBox AptDaemon.Worker: INFO: Finished transaction /org/debian/apt/transaction/8eb176c8a6914499ae00dfb4274628d1
-Feb 13 12:38:27 caleb-VirtualBox org.debian.apt[702]: 12:38:27 AptDaemon.Worker [INFO]: Finished transaction /org/debian/apt/transaction/8eb176c8a6914499ae00dfb4274628d1
-Feb 13 12:49:09 caleb-VirtualBox AptDaemon: INFO: Quitting due to inactivity
-Feb 13 12:49:09 caleb-VirtualBox AptDaemon: INFO: Quitting was requested
-Feb 13 12:49:09 caleb-VirtualBox org.debian.apt[702]: 12:49:09 AptDaemon [INFO]: Quitting due to inactivity
-Feb 13 12:49:09 caleb-VirtualBox org.debian.apt[702]: 12:49:09 AptDaemon [INFO]: Quitting was requested
-Feb 13 12:58:17 caleb-VirtualBox kernel: [ 3676.594818] Unloaded interceptor!
-Feb 13 12:58:17 caleb-VirtualBox kernel: [ 4913.620202] 'Hello, world!' -- syscall1
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.887093] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/libc.so
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.887126] User 1000 is closing file descriptor: 12
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.887186] User 1000 is closing file descriptor: 10
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.887189] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/libc.so
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.887214] User 1000 is closing file descriptor: 10
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.887222] User 1000 is opening file: /lib/i386-linux-gnu/libc.so.6
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.887331] User 1000 is opening file: /lib/i386-linux-gnu/libc.so.6
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.887358] User 1000 is closing file descriptor: 12
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.897161] User 1000 is opening file: /usr/lib/i386-linux-gnu/libc_nonshared.a
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.897775] User 1000 is opening file: /usr/lib/i386-linux-gnu/libc_nonshared.a
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.897799] User 1000 is closing file descriptor: 13
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.897859] User 1000 is opening file: /lib/i386-linux-gnu/ld-linux.so.2
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.897920] User 1000 is opening file: /lib/i386-linux-gnu/ld-linux.so.2
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.897936] User 1000 is closing file descriptor: 14
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.904679] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/libgcc.so
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.904694] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/libgcc.a
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.904894] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/libgcc_s.so
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.904961] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/libgcc_s.so
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.904984] User 1000 is closing file descriptor: 16
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.906639] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/crtend.o
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.910697] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/crtend.o
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.910728] User 1000 is closing file descriptor: 17
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.910754] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.911190] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.911208] User 1000 is closing file descriptor: 18
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.911256] User 1000 is opening file: /lib/i386-linux-gnu/ld-linux.so.2
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.923895] User 1000 is closing file descriptor: 3
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.926954] User 1000 is closing file descriptor: 16
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.926961] User 1000 is closing file descriptor: 7
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.926964] User 1000 is closing file descriptor: 12
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.926967] User 1000 is closing file descriptor: 6
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.926969] User 1000 is closing file descriptor: 17
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.926972] User 1000 is closing file descriptor: 5
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.926974] User 1000 is closing file descriptor: 4
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.926976] User 1000 is closing file descriptor: 18
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.926979] User 1000 is closing file descriptor: 10
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.926982] User 1000 is closing file descriptor: 14
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.926984] User 1000 is closing file descriptor: 8
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.926987] User 1000 is closing file descriptor: 15
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.926989] User 1000 is closing file descriptor: 13
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.926992] User 1000 is closing file descriptor: 9
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.927376] User 1000 is opening file: /tmp/cc5H1vBN.ld
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.927397] User 1000 is closing file descriptor: 3
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.927422] User 1000 is opening file: /tmp/ccQADMV3.le
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.927430] User 1000 is closing file descriptor: 3
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.927454] User 1000 is opening file: /tmp/cc5H1vBN.ld
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.927457] User 1000 is opening file: /tmp/ccQADMV3.le
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.977160] User 1000 is opening file: /usr/share/applications/gedit.desktop
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.977216] User 1000 is closing file descriptor: 22
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.979948] User 1000 is opening file: /usr/share/applications/gedit.desktop
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.980013] User 1000 is closing file descriptor: 22
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.980163] User 1000 is opening file: /usr/share/applications/vim.desktop
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.980253] User 1000 is closing file descriptor: 22
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.980417] User 1000 is opening file: /usr/share/applications/libreoffice-writer.desktop
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.980711] User 1000 is closing file descriptor: 22
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.980826] User 1000 is opening file: /usr/share/applications/org.gnome.gedit.desktop
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.980872] User 1000 is closing file descriptor: 22
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.992497] User 1000 is opening file: /usr/share/applications/thunderbird.desktop
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13694.992825] User 1000 is closing file descriptor: 22
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13695.055596] User 1000 is opening file: /home/caleb/operating_systems/cjralphs_project2/test_catch_sys_calls
+Feb 13 15:25:16 caleb-VirtualBox kernel: [13695.055626] User 1000 is closing file descriptor: 22
+Feb 13 15:25:17 caleb-VirtualBox kernel: [13695.153731] User 1000 is opening file: /usr/share/applications/gedit.desktop
+Feb 13 15:25:17 caleb-VirtualBox kernel: [13695.153829] User 1000 is closing file descriptor: 22
+Feb 13 15:25:17 caleb-VirtualBox kernel: [13695.158995] User 1000 is opening file: /usr/share/applications/gedit.desktop
+Feb 13 15:25:17 caleb-VirtualBox kernel: [13695.159075] User 1000 is closing file descriptor: 22
+Feb 13 15:25:17 caleb-VirtualBox kernel: [13695.159271] User 1000 is opening file: /usr/share/applications/vim.desktop
+Feb 13 15:25:17 caleb-VirtualBox kernel: [13695.159387] User 1000 is closing file descriptor: 22
+Feb 13 15:25:17 caleb-VirtualBox kernel: [13695.159547] User 1000 is opening file: /usr/share/applications/libreoffice-writer.desktop
+Feb 13 15:25:17 caleb-VirtualBox kernel: [13695.159914] User 1000 is closing file descriptor: 22
+Feb 13 15:25:17 caleb-VirtualBox kernel: [13695.160089] User 1000 is opening file: /usr/share/applications/org.gnome.gedit.desktop
+Feb 13 15:25:17 caleb-VirtualBox kernel: [13695.160148] User 1000 is closing file descriptor: 22
+Feb 13 15:25:17 caleb-VirtualBox kernel: [13695.175217] User 1000 is opening file: /usr/share/applications/thunderbird.desktop
+Feb 13 15:25:17 caleb-VirtualBox kernel: [13695.175498] User 1000 is closing file descriptor: 22
+Feb 13 15:25:21 caleb-VirtualBox kernel: [13699.414141] User 1000 is opening file: /home/caleb/operating_systems/cjralphs_project2/
+Feb 13 15:25:21 caleb-VirtualBox kernel: [13699.414249] User 1000 is closing file descriptor: 3
+Feb 13 15:25:22 caleb-VirtualBox kernel: [13700.993316] User 1000 is closing file descriptor: 3
+Feb 13 15:25:22 caleb-VirtualBox kernel: [13700.993320] User 1000 is closing file descriptor: 4
+Feb 13 15:25:22 caleb-VirtualBox kernel: [13700.993385] User 1000 is closing file descriptor: 4
+Feb 13 15:25:22 caleb-VirtualBox kernel: [13700.993390] User 1000 is closing file descriptor: 3
+Feb 13 15:25:22 caleb-VirtualBox kernel: [13700.993704] User 1000 is opening file: /etc/ld.so.cache
+Feb 13 15:25:22 caleb-VirtualBox kernel: [13700.993712] User 1000 is closing file descriptor: 3
+Feb 13 15:25:22 caleb-VirtualBox kernel: [13700.993724] User 1000 is opening file: /lib/i386-linux-gnu/libc.so.6
+Feb 13 15:25:22 caleb-VirtualBox kernel: [13700.993752] User 1000 is closing file descriptor: 3
+Feb 13 15:25:22 caleb-VirtualBox kernel: [13700.993910] User 1000 is opening file: zoinks.txt
+Feb 13 15:25:22 caleb-VirtualBox kernel: [13700.993916] User 1000 is closing file descriptor: 3
+Feb 13 15:25:24 caleb-VirtualBox kernel: [13700.993919] "’Hello world?!’ More like ’Goodbye, world!’ EXTERMINATE!" -- Dalek
+Feb 13 15:25:24 caleb-VirtualBox kernel: [13702.950284] User 1000 is closing file descriptor: 4
+Feb 13 15:25:24 caleb-VirtualBox kernel: [13702.950325] User 1000 is closing file descriptor: 5
+Feb 13 15:25:26 caleb-VirtualBox kernel: [13704.230692] User 1000 is opening file: /etc/fstab
+Feb 13 15:25:26 caleb-VirtualBox kernel: [13704.230729] User 1000 is closing file descriptor: 16
+Feb 13 15:25:26 caleb-VirtualBox kernel: [13704.230735] User 1000 is opening file: /proc/mounts
+Feb 13 15:25:26 caleb-VirtualBox kernel: [13704.230954] User 1000 is closing file descriptor: 16
+Feb 13 15:25:31 caleb-VirtualBox kernel: [13709.917340] User 1000 is closing file descriptor: 3
+Feb 13 15:25:31 caleb-VirtualBox kernel: [13709.917348] User 1000 is closing file descriptor: 4
+Feb 13 15:25:31 caleb-VirtualBox kernel: [13709.917472] User 1000 is closing file descriptor: 4
+Feb 13 15:25:31 caleb-VirtualBox kernel: [13709.917487] User 1000 is closing file descriptor: 3
+Feb 13 15:25:31 caleb-VirtualBox kernel: [13709.918862] User 1000 is opening file: /etc/ld.so.cache
+Feb 13 15:25:31 caleb-VirtualBox kernel: [13709.918881] User 1000 is closing file descriptor: 3
+Feb 13 15:25:31 caleb-VirtualBox kernel: [13709.918899] User 1000 is opening file: /lib/i386-linux-gnu/libc.so.6
+Feb 13 15:25:31 caleb-VirtualBox kernel: [13709.918938] User 1000 is closing file descriptor: 3
 

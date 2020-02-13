@@ -1,1 +1,0 @@
-cmd_/home/caleb/operating_systems/cjralphs_project2/catch_sys_calls.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/caleb/operating_systems/cjralphs_project2/catch_sys_calls.ko /home/caleb/operating_systems/cjralphs_project2/catch_sys_calls.o /home/caleb/operating_systems/cjralphs_project2/catch_sys_calls.mod.o
