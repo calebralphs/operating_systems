@@ -6,8 +6,8 @@
 unsigned long **sys_call_table;
 
 asmlinkage long (*ref_sys_open)(const char __user *filename, int flags, umode_t mode);
-asmlinkage long (*ref_sys_close)(unsigned int fd);
-asmlinkage long (*ref_sys_read)(int fd, void __user *buf, size_t count);
+//asmlinkage long (*ref_sys_close)(unsigned int fd);
+//asmlinkage long (*ref_sys_read)(int fd, void __user *buf, size_t count);
 
 // sys_open
 asmlinkage long new_sys_open(const char __user *filename, int flags, umode_t mode) {
@@ -41,7 +41,7 @@ asmlinkage long new_sys_read(int fd, void __user *buf, size_t count) {
     buf_copy = kmalloc(bytes_read+1, GFP_KERNEL);
     memcpy(buf_copy, buf, bytes_read);
     buf_copy[bytes_read] = '\0';
-    
+
     if (strstr(buf_copy, "zoinks!") != NULL) {
         printk(", but that read contained malicious code!\n");
     }
@@ -99,6 +99,7 @@ static void enable_page_protection(void) {
 
 static int __init interceptor_start(void) {
     /* Find the system call table */
+    printk()
     if (!(sys_call_table = find_sys_call_table())) {
         /* Well, that didn't work. 
         Cancel the module loading step. */
@@ -107,16 +108,15 @@ static int __init interceptor_start(void) {
 
     /* Store a copy of all the existing functions */
     ref_sys_open = (void *)sys_call_table[__NR_open];
-    ref_sys_close = (void *)sys_call_table[__NR_close];
-    ref_sys_read = (void *)sys_call_table[__NR_read];
+    //ref_sys_close = (void *)sys_call_table[__NR_close];
+    //ref_sys_read = (void *)sys_call_table[__NR_read];
 
 
     /* Replace the existing system calls */
     disable_page_protection();
-
     sys_call_table[__NR_open] = (unsigned long *)new_sys_open;
-    sys_call_table[__NR_close] = (unsigned long *)new_sys_close;
-    sys_call_table[__NR_read] = (unsigned long *)new_sys_read;
+    //sys_call_table[__NR_close] = (unsigned long *)new_sys_close;
+    //sys_call_table[__NR_read] = (unsigned long *)new_sys_read;
 
     enable_page_protection();
 
@@ -135,8 +135,8 @@ static void __exit interceptor_end(void) {
     /* Revert all system calls to what they were before we began. */
     disable_page_protection();
     sys_call_table[__NR_open] = (unsigned long *)ref_sys_open;
-    sys_call_table[__NR_close] = (unsigned long *)ref_sys_close;
-    sys_call_table[__NR_read] = (unsigned long *)ref_sys_read;
+    //sys_call_table[__NR_close] = (unsigned long *)ref_sys_close;
+    //sys_call_table[__NR_read] = (unsigned long *)ref_sys_read;
     enable_page_protection();
 
     printk(KERN_INFO "Unloaded interceptor!");
