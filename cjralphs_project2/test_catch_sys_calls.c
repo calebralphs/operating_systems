@@ -1,8 +1,8 @@
 #include <sys/syscall.h>
-#include <sys/stdio.h>
+#include <stdio.h>
 
 void main () {
-    FILE *fptr;
-    fptr = fopen('zoinks.txt', 'r');
-    fclose(fptr);
+    FILE *fp;
+    fp = fopen("zoinks.txt", "r");
+    fclose(fp);
 }
