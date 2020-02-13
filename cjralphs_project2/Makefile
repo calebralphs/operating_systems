@@ -1,4 +1,4 @@
-obj-m := catch_sys_calls.o
+obj-m := catch_sys_calls.o test_catch_sys_calls.o
 KDIR := /lib/modules/$(shell uname -r)/build
 PWD := $(shell pwd)
 
