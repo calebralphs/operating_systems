@@ -11,15 +11,19 @@ unsigned long **sys_call_table;
 asmlinkage long (*ref_sys_cs3013_syscall2)(void);
 
 // sys_cs3013_syscall1
-asmlinkage long new_sys_cs3013_syscall2(unsigned short *target_pid) {
+asmlinkage long new_sys_cs3013_syscall2(unsigned short *target_pid, struct ancestry *response) {
+    
+
+
+    int i = 0;
     struct task_struct* current_task = current;
     int current_pid = current_task->pid;
     printk(KERN_INFO "CURRENT TASK STRUCT PID: %d\n", current_pid);
 
-    int i = 0;
-    while (current_pid > 1) {
+    while (current_pid > 1 && i < 10) {
         current_task = current_task->parent;
         current_pid = current_task->pid;
+	response->ancestors[i] = current_pid;
         printk(KERN_INFO "PARENT %d TASK STRUCT PID: %d\n", i, current_pid);
         i += 1;
     }

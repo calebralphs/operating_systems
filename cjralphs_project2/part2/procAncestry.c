@@ -1,6 +1,8 @@
 #include <unistd.h>
 #include <sys/syscall.h>
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 #include "part2.h"
 
 #define __NR_cs3013_syscall2 378
@@ -11,6 +13,7 @@ void main(int argc, char* argv[]) {
         exit(-1);
     }
     int pid = atoi(argv[1]);
+    struct ancester response;
     // test sys_cs3013_syscall1
-    syscall(__NR_cs3013_syscall2, pid);
+    syscall(__NR_cs3013_syscall2, pid, &response);
 }
