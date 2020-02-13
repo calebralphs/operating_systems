@@ -11,16 +11,16 @@ unsigned long **sys_call_table;
 asmlinkage long (*ref_sys_cs3013_syscall2)(void);
 
 // sys_cs3013_syscall1
-asmlinkage long new_sys_cs3013_syscall2(unsigned short *target pid) { //, struct ancestry *response) {
+asmlinkage long new_sys_cs3013_syscall2(unsigned short *target_pid) {
     struct task_struct* current_task = current;
     int current_pid = current_task->pid;
-    kprint(KERNINFO "CURRENT TASK STRUCT PID: %d", current_pid);
+    printk(KERN_INFO "CURRENT TASK STRUCT PID: %d", current_pid);
 
     int i = 0;
     while (current_pid > 1) {
         current_task = current_task->parent;
         current_pid = current_task->pid;
-        kprint(KERNINFO "PARENT %d TASK STRUCT PID: %d", i, current_pid);
+        printk(KERN_INFO "PARENT %d TASK STRUCT PID: %d", i, current_pid);
         i += 1;
     }
 
@@ -86,7 +86,6 @@ static int __init interceptor_start(void) {
     /* Replace the existing system calls */
     disable_page_protection();
     sys_call_table[__NR_cs3013_syscall2] = (unsigned long *)new_sys_cs3013_syscall2;
-
     enable_page_protection();
 
     /* And indicate the load was successful */
