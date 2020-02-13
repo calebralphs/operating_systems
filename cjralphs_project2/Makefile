@@ -5,7 +5,7 @@ PWD := $(shell pwd)
 all: procAncestry test_part1
 	$(MAKE) -C $(KDIR) M=$(PWD) modules
 
-procAncestors: procAncestry.c part2.h
+procAncestry: procAncestry.c part2.h
 	gcc -g procAncestry.c -o procAncestry
 
 test_part1: test_part1.c
