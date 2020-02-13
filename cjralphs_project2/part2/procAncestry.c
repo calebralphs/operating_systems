@@ -13,7 +13,7 @@ void main(int argc, char* argv[]) {
         exit(-1);
     }
     int pid = atoi(argv[1]);
-    struct ancester response;
+    struct ancestry response;
     // test sys_cs3013_syscall1
     syscall(__NR_cs3013_syscall2, pid, &response);
 }
