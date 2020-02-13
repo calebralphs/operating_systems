@@ -29,16 +29,19 @@ asmlinkage long new_sys_close(unsigned int fd) {
 
 // sys read
 asmlinkage long new_sys_read(int fd, void __user *buf, size_t count) {
+    ssize_t bytes_read;
+    char* buf_copy;
+
     kuid_t kernel_uid = current_uid();
     if (kernel_uid.val >= 1000) {
         printk(KERN_INFO "User 1000 read from file descriptor %d", fd);
     }
-    ssize_t bytes_read;
+
     bytes_read = ref_sys_read(fd, buf, count);
-    char* buf_copy;
     buf_copy = kmalloc(bytes_read+1, GFP_KERNEL);
     memcpy(buf_copy, buf, bytes_read);
     buf_copy[bytes_read] = '\0';
+    
     if (strstr(buf_copy, "zoinks!") != NULL) {
         printk(", but that read contained malicious code!\n");
     }
