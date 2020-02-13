@@ -1,5 +1,5 @@
 #include <linux/syscalls.h>
-#include <linux/stdio.h>
+#include <sys/stdio.h>
 
 void main () {
     FILE *fptr;
