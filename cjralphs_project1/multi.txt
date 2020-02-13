@@ -1,0 +1,6 @@
+whoami
+sleep 10
+ls -alh
+sleep 3
+whoami
+pwd

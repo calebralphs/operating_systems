@@ -1,0 +1,32 @@
+cjralphs@DESKTOP-CCV5H6L:/mnt/c/Users/caleb/Documents/CS 3013$ ./boring
+Running command: whoami
+cjralphs
+
+-- Statistics ---
+Elapsed Time: 53.41 milliseconds
+Page Faults: 0
+Page Faults (reclaimed): 276
+-- End of Statistics --
+
+Running command: last
+
+wtmp begins Thu Mar 30 02:53:22 2017
+
+-- Statistics ---
+Elapsed Time: 18.93 milliseconds
+Page Faults: 0
+Page Faults (reclaimed): 198
+-- End of Statistics --
+
+Running command: ls -al /home
+total 0
+drwxr-xr-x 1 root     root     4096 Dec  1  2017 .
+drwxr-xr-x 1 root     root     4096 Nov  3  2017 ..
+drwxr-xr-x 1 cjralphs cjralphs 4096 Dec  3 18:45 cjralphs
+drwxr-xr-x 1 cs2011   cs2011   4096 Dec  1  2017 cs2011
+
+-- Statistics ---
+Elapsed Time: 37.85 milliseconds
+Page Faults: 0
+Page Faults (reclaimed): 421
+-- End of Statistics --

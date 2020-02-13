@@ -1,0 +1,69 @@
+cjralphs@DESKTOP-CCV5H6L:/mnt/c/Users/caleb/Documents/CS 3013$ ./multi 1 3
+Running command: whoami
+cjralphs
+
+-- Statistics ---
+Elapsed Time: 18.40 milliseconds
+Page Faults: 0
+Page Faults (reclaimed): 277
+-- End of Statistics --
+
+Running command: sleep 10
+Running command: ls -alh
+total 56K
+drwxrwxrwx 1 cjralphs cjralphs 4.0K Feb  1 14:44 .
+drwxrwxrwx 1 cjralphs cjralphs 4.0K Jan 24 16:23 ..
+-rwxrwxrwx 1 cjralphs cjralphs  18K Feb  1 14:44 boring
+-rwxrwxrwx 1 cjralphs cjralphs  220 Jan 31 20:37 boring.c
+-rwxrwxrwx 1 cjralphs cjralphs 2.5K Jan 31 20:56 boring.h
+-rwxrwxrwx 1 cjralphs cjralphs  905 Jan 24 19:10 cjralphs_project1_checkpoint.zip
+-rwxrwxrwx 1 cjralphs cjralphs  18K Feb  1 14:44 custom
+-rwxrwxrwx 1 cjralphs cjralphs   89 Jan 31 21:14 custom.c
+-rwxrwxrwx 1 cjralphs cjralphs  432 Feb  1 14:28 custom.h
+-rwxrwxrwx 1 cjralphs cjralphs   61 Feb  1 14:28 custom.txt
+-rwxrwxrwx 1 cjralphs cjralphs  276 Jan 31 21:11 makefile
+-rwxrwxrwx 1 cjralphs cjralphs  19K Feb  1 14:44 multi
+-rwxrwxrwx 1 cjralphs cjralphs 2.9K Feb  1 14:44 multi.c
+-rwxrwxrwx 1 cjralphs cjralphs   43 Jan 31 23:57 multi.h
+-rwxrwxrwx 1 cjralphs cjralphs   49 Feb  1 14:13 multi.txt
+-rwxrwxrwx 1 cjralphs cjralphs 4.0K Feb  1 14:27 README.txt
+drwxrwxrwx 1 cjralphs cjralphs 4.0K Jan 31 15:07 .vscode
+
+-- Statistics ---
+Elapsed Time: 40.78 milliseconds
+Page Faults: 0
+Page Faults (reclaimed): 419
+-- End of Statistics --
+
+Running command: sleep 3
+Running command: whoami
+cjralphs
+
+-- Statistics ---
+Elapsed Time: 25.93 milliseconds
+Page Faults: 0
+Page Faults (reclaimed): 276
+-- End of Statistics --
+
+Running command: pwd
+/mnt/c/Users/caleb/Documents/CS 3013
+
+-- Statistics ---
+Elapsed Time: 30.24 milliseconds
+Page Faults: 0
+Page Faults (reclaimed): 206
+-- End of Statistics --
+
+
+-- Statistics ---
+Elapsed Time: 21.56 milliseconds
+Page Faults: 0
+Page Faults (reclaimed): 212
+-- End of Statistics --
+
+
+-- Statistics ---
+Elapsed Time: 33.48 milliseconds
+Page Faults: 0
+Page Faults (reclaimed): 210
+-- End of Statistics --

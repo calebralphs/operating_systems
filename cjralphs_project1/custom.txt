@@ -1,0 +1,8 @@
+cd /
+ls -alh
+pwd
+cd /home
+sleep 3
+ls -alh
+pwd
+whoami
