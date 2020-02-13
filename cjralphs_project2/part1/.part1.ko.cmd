@@ -1,0 +1,1 @@
+cmd_/home/caleb/operating_systems/cjralphs_project2/part1/part1.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/caleb/operating_systems/cjralphs_project2/part1/part1.ko /home/caleb/operating_systems/cjralphs_project2/part1/part1.o /home/caleb/operating_systems/cjralphs_project2/part1/part1.mod.o
