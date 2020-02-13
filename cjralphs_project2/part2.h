@@ -1,3 +1,5 @@
+#define __NR_cs3013_syscall2 378
+
 struct ancestry {
     pid_t ancestors[10];
     pid_t siblings[100];
