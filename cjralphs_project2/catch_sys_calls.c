@@ -99,7 +99,6 @@ static void enable_page_protection(void) {
 
 static int __init interceptor_start(void) {
     /* Find the system call table */
-    printk()
     if (!(sys_call_table = find_sys_call_table())) {
         /* Well, that didn't work. 
         Cancel the module loading step. */
