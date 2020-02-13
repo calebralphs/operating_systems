@@ -1,10 +1,9 @@
-.PHONY: all clean
+obj-m := catch_sys_calls.o
+KDIR := /lib/modules/$(shell uname -r)/build
+PWD := $(shell pwd)
 
-all: catch_sys_calls
-
-
-scanner: catch_sys_calls.c
-	gcc -g catch_sys_calls.c -o catch_sys_calls
+all:
+	$(MAKE) -C $(KDIR) M=$(PWD) modules
 
 clean:
-	rm -f catch_sys_calls
+	$(MAKE) -C $(KDIR) M=$(PWD) clean
