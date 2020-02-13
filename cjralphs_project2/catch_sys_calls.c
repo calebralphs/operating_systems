@@ -17,7 +17,7 @@ asmlinkage long new_sys_open(const char __user *filename, int flags, umode_t mod
     }
     return ref_sys_open(filename, flags, mode);
 }
-
+/*
 // sys_close
 asmlinkage long new_sys_close(unsigned int fd) {
     kuid_t kernel_uid = current_uid();
@@ -52,6 +52,7 @@ asmlinkage long new_sys_read(int fd, void __user *buf, size_t count) {
 
     return bytes_read;
 }
+*/
 
 static unsigned long **find_sys_call_table(void) {
     unsigned long int offset = PAGE_OFFSET;
