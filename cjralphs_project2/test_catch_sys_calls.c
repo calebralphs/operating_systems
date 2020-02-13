@@ -1,4 +1,4 @@
-#include <linux/syscall.h>
+#include <sys/syscalls.h>
 #include <stdio.h>
 
 void main () {
