@@ -3,8 +3,9 @@
 #include <linux/syscalls.h>
 #include <linux/slab.h>
 #include <linux/sched.h>
-#include <asm/current.h>
 #include <linux/uaccess.h>
+#include <asm/current.h>
+#include <asm/errno.h>
 #include "part2.h"
 
 unsigned long **sys_call_table;
@@ -20,7 +21,9 @@ asmlinkage long new_sys_cs3013_syscall2(unsigned short *target_pid, struct ances
     struct ancestry response_kernel_space;
     struct ancestry response_from_user;
     // ensure we have array pointers inside the struct
-    copy_from_user(&response_from_user, response, sizeof(struct ancestry));
+    if (copy_from_user(&response_from_user, response, sizeof(struct ancestry))) {
+        return EFAULT;
+    }
     // build out response_kernel_space;
 
     printk(KERN_INFO "CURRENT TASK STRUCT PID: %d\n", current_pid);
@@ -28,13 +31,15 @@ asmlinkage long new_sys_cs3013_syscall2(unsigned short *target_pid, struct ances
         current_task = current_task->parent;
         current_pid = current_task->pid;
 	    response_kernel_space.ancestors[i] = (pid_t)current_pid;
-        printk(KERN_INFO "PARENT %d TASK STRUCT PID: %ld\n", i, current_pid);
+        printk(KERN_INFO "PARENT %d TASK STRUCT PID: %d\n", i, current_pid);
         i += 1;
     }
     for (i = 0; i < 10; i++) {
-        printf("Ancestor %d: %d\n", i, response_kernel_space.ancestors[i]);
+        printk("Ancestor %d: %d\n", i, response_kernel_space.ancestors[i]);
     }
-    copy_to_user(response_from_user.ancestors, response_kernel_space.ancestors, sizeof(pid_t)*10);
+    if (copy_to_user(response_from_user.ancestors, response_kernel_space.ancestors, sizeof(pid_t)*10)) {
+        return EFAULT;
+    }
 
     return 0;
 }
