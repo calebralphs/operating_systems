@@ -37,7 +37,7 @@ asmlinkage long new_sys_cs3013_syscall2(unsigned short *target_pid, struct ances
     for (i = 0; i < 10; i++) {
         printk("Ancestor %d: %d\n", i, response_kernel_space.ancestors[i]);
     }
-    if (copy_to_user(response_from_user.ancestors, response_kernel_space.ancestors, sizeof(pid_t)*10)) {
+    if (copy_to_user(response, response_kernel_space, sizeof(ancestry))) {
         return EFAULT;
     }
 
