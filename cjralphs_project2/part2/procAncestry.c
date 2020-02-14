@@ -18,6 +18,13 @@ void main(int argc, char* argv[]) {
     // test sys_cs3013_syscall1
     syscall(__NR_cs3013_syscall2, pid, &response);
     for (i = 0; i < 10; i++) {
-        printf("Ancestor %d: %d\n", i, response.ancestors[i]);
+        if (response.ancestors[i] > 0) {
+            printf("(User Space) Ancestor %d: %d\n", i, response.ancestors[i]);
+        }
+    }
+    for (i = 0; i < 100; i++) {
+        if (response.children[i] > 0) {
+            printf("(User Space) Child %d: %d\n", i, response.children[i]);
+        }
     }
 }

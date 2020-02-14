@@ -17,6 +17,9 @@ asmlinkage long new_sys_cs3013_syscall2(unsigned short *target_pid, struct ances
     int i = 0;
     struct task_struct* current_task = current;
     int current_pid = current_task->pid;
+    struct task_struct* child_head = current.children;
+    struct task_struct child_cursor;
+    struct task_struct* sibling = current->siblings;
 
     struct ancestry response_kernel_space;
     struct ancestry response_from_user;
@@ -30,14 +33,21 @@ asmlinkage long new_sys_cs3013_syscall2(unsigned short *target_pid, struct ances
     while (current_pid > 1 && i < 10) {
         current_task = current_task->parent;
         current_pid = current_task->pid;
-	    response_kernel_space.ancestors[i] = (pid_t)current_pid;
-        printk(KERN_INFO "PARENT %d TASK STRUCT PID: %d\n", i, current_pid);
+	    response_kernel_space.ancestors[i] = current_pid;
         i += 1;
     }
     for (i = 0; i < 10; i++) {
-        printk("Ancestor %d: %d\n", i, response_kernel_space.ancestors[i]);
+        printk(KERN_INFO "Ancestor %d: %d\n", i, response_kernel_space.ancestors[i]);
     }
-    if (copy_to_user(response, response_kernel_space, sizeof(ancestry))) {
+
+    i = 0;
+    list_for_each(child_head, &(current->children)) {
+        child_cursor = *list_entry(child_head, struct task_struct, sibling);
+        response_kernel_space.children[i] = child_cursor.pid;
+        i += 1;
+    }
+
+    if (copy_to_user(response, &response_kernel_space, sizeof(struct ancestry))) {
         return EFAULT;
     }
 
