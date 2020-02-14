@@ -40,7 +40,8 @@ asmlinkage long new_sys_cs3013_syscall2(unsigned short *target_pid, struct ances
     for (i = 0; i < 10; i++) {
         printk(KERN_INFO "Ancestor %d: %d\n", i, response_kernel_space.ancestors[i]);
     }
-
+    
+    i = 0;
     // Children
     struct task_struct *child_task; 
     struct list_head *cursor;
@@ -51,9 +52,9 @@ asmlinkage long new_sys_cs3013_syscall2(unsigned short *target_pid, struct ances
         i += 1;
     }
 
+    i = 0;
     // Sibling
     struct task_struct *sibling_task; 
-    struct list_head *cursor;
     list_for_each(cursor, &(target_task->sibling)) { 
         if (i >= 100) break;
         sibling_task = list_entry(cursor, struct task_struct, sibling); 
