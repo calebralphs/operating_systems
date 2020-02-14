@@ -12,8 +12,12 @@ void main(int argc, char* argv[]) {
         // grrrrr
         exit(-1);
     }
+    int i;
     int pid = atoi(argv[1]);
     struct ancestry response;
     // test sys_cs3013_syscall1
     syscall(__NR_cs3013_syscall2, pid, &response);
+    for (i = 0; i < 10; i++) {
+        printf("Ancestor %d: %d\n", i, response.ancestors[i]);
+    }
 }
