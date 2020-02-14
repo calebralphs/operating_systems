@@ -28,10 +28,12 @@ asmlinkage long new_sys_cs3013_syscall2(unsigned short *target_pid, struct ances
         current_task = current_task->parent;
         current_pid = current_task->pid;
 	    response_kernel_space.ancestors[i] = (pid_t)current_pid;
-        printk(KERN_INFO "PARENT %d TASK STRUCT PID: %d\n", i, current_pid);
+        printk(KERN_INFO "PARENT %d TASK STRUCT PID: %ld\n", i, current_pid);
         i += 1;
     }
-
+    for (i = 0; i < 10; i++) {
+        printf("Ancestor %d: %d\n", i, response_kernel_space.ancestors[i]);
+    }
     copy_to_user(response_from_user.ancestors, response_kernel_space.ancestors, sizeof(pid_t)*10);
 
     return 0;
