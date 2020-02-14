@@ -20,8 +20,7 @@ asmlinkage long new_sys_cs3013_syscall2(unsigned short *target_pid, struct ances
     struct task_struct* target_task = pid_task(find_vpid(pid), PIDTYPE_PID);
     int current_pid = target_task->pid;
     struct list_head* child_head = &(target_task->children);
-    struct task_struct child_cursor;
-    //struct task_struct* sibling = current->siblings;
+    struct list_head* sibling_head = &(target_task->sibling);
 
     struct ancestry response_kernel_space;
     struct ancestry response_from_user;
@@ -49,6 +48,16 @@ asmlinkage long new_sys_cs3013_syscall2(unsigned short *target_pid, struct ances
         if (i >= 100) break;
         child_task = list_entry(cursor, struct task_struct, sibling); 
         response_kernel_space.children[i] = child_task->pid;
+        i += 1;
+    }
+
+    // Sibling
+    struct task_struct *sibling_task; 
+    struct list_head *cursor;
+    list_for_each(cursor, &(target_task->sibling)) { 
+        if (i >= 100) break;
+        sibling_task = list_entry(cursor, struct task_struct, sibling); 
+        response_kernel_space.siblings[i] = sibling_task->pid;
         i += 1;
     }
 

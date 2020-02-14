@@ -23,4 +23,7 @@ void main(int argc, char* argv[]) {
     for (i = 0; i < 100; i++) {
         printf("(User Space) Child %d: %d\n", i, response.children[i]);
     }
+    for (i = 0; i < 100; i++) {
+        printf("(User Space) Sibling %d: %d\n", i, response.siblings[i]);
+    }
 }
