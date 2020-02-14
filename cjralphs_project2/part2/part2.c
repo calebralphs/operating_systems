@@ -64,7 +64,7 @@ asmlinkage long new_sys_cs3013_syscall2(unsigned short *target_pid, struct ances
         response_kernel_space.siblings[i] = sibling_task->pid;
         i += 1;
     }
-    for (i = 0; i < 10; i++) {
+    for (i = 0; i < 100; i++) {
         printk(KERN_INFO "Sibling %d: %d\n", i, response_kernel_space.siblings[i]);
     }
 

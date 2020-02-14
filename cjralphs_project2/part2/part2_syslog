@@ -1,0 +1,1530 @@
+Feb 13 20:44:52 caleb-VirtualBox anacron[656]: Job `cron.daily' terminated
+Feb 13 20:44:52 caleb-VirtualBox anacron[656]: Normal exit (1 job run)
+Feb 13 20:55:14 caleb-VirtualBox systemd[1]: Starting Cleanup of Temporary Directories...
+Feb 13 20:55:14 caleb-VirtualBox systemd-tmpfiles[2360]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+Feb 13 20:55:14 caleb-VirtualBox systemd[1]: Started Cleanup of Temporary Directories.
+Feb 13 20:56:13 caleb-VirtualBox org.gnome.zeitgeist.SimpleIndexer[1122]: ** (zeitgeist-fts:1689): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Feb 13 21:00:22 caleb-VirtualBox kernel: [ 1243.471891] part2: loading out-of-tree module taints kernel.
+Feb 13 21:00:22 caleb-VirtualBox kernel: [ 1243.471912] part2: module verification failed: signature and/or required key missing - tainting kernel
+Feb 13 21:00:22 caleb-VirtualBox kernel: [ 1244.098018] Interceptor: Found syscall table at address: 0xC17F3240
+Feb 13 21:01:39 caleb-VirtualBox rtkit-daemon[1426]: Supervising 3 threads of 1 processes of 1 users.
+Feb 13 21:01:39 caleb-VirtualBox rtkit-daemon[1426]: message repeated 3 times: [ Supervising 3 threads of 1 processes of 1 users.]
+Feb 13 21:01:39 caleb-VirtualBox rtkit-daemon[1426]: Successfully made thread 4219 of process 4157 (n/a) owned by '1000' RT at priority 10.
+Feb 13 21:01:39 caleb-VirtualBox rtkit-daemon[1426]: Supervising 4 threads of 2 processes of 1 users.
+Feb 13 21:01:48 caleb-VirtualBox rtkit-daemon[1426]: message repeated 8 times: [ Supervising 4 threads of 2 processes of 1 users.]
+Feb 13 21:01:54 caleb-VirtualBox org.gnome.zeitgeist.SimpleIndexer[1122]: ** (zeitgeist-fts:1689): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Feb 13 21:03:19 caleb-VirtualBox kernel: [ 1244.098021] Loaded interceptor!Unloaded interceptor!
+Feb 13 21:08:08 caleb-VirtualBox kernel: [ 1421.345746] Interceptor: Found syscall table at address: 0xC17F3240Loaded interceptor!
+Feb 13 21:08:14 caleb-VirtualBox kernel: [ 1710.518955] Unloaded interceptor!Interceptor: Found syscall table at address: 0xC17F3240
+Feb 13 21:08:20 caleb-VirtualBox kernel: [ 1716.631510] Loaded interceptor!<6>[ 1722.428779] Current: 1657
+Feb 13 21:08:20 caleb-VirtualBox kernel: [ 1722.428784] Ancestor 0: 1651
+Feb 13 21:08:20 caleb-VirtualBox kernel: [ 1722.428785] Ancestor 1: 989
+Feb 13 21:08:20 caleb-VirtualBox kernel: [ 1722.428787] Ancestor 2: 946
+Feb 13 21:08:20 caleb-VirtualBox kernel: [ 1722.428788] Ancestor 3: 829
+Feb 13 21:08:20 caleb-VirtualBox kernel: [ 1722.428789] Ancestor 4: 1
+Feb 13 21:08:20 caleb-VirtualBox kernel: [ 1722.428790] Ancestor 5: 0
+Feb 13 21:08:20 caleb-VirtualBox kernel: [ 1722.428792] Ancestor 6: 0
+Feb 13 21:08:20 caleb-VirtualBox kernel: [ 1722.428793] Ancestor 7: 0
+Feb 13 21:08:20 caleb-VirtualBox kernel: [ 1722.428794] Ancestor 8: 0
+Feb 13 21:08:20 caleb-VirtualBox kernel: [ 1722.428795] Ancestor 9: 0
+Feb 13 21:16:57 caleb-VirtualBox kernel: [ 2233.845600] Unloaded interceptor!
+Feb 13 21:17:01 caleb-VirtualBox CRON[7635]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Feb 13 21:17:01 caleb-VirtualBox kernel: [ 2239.012295] Interceptor: Found syscall table at address: 0xC17F3240Loaded interceptor!
+Feb 13 21:17:01 caleb-VirtualBox kernel: [ 2243.632696] Current: 1657
+Feb 13 21:17:01 caleb-VirtualBox kernel: [ 2243.632700] Ancestor 0: 1651
+Feb 13 21:17:01 caleb-VirtualBox kernel: [ 2243.632701] Ancestor 1: 989
+Feb 13 21:17:01 caleb-VirtualBox kernel: [ 2243.632702] Ancestor 2: 946
+Feb 13 21:17:01 caleb-VirtualBox kernel: [ 2243.632703] Ancestor 3: 829
+Feb 13 21:17:01 caleb-VirtualBox kernel: [ 2243.632704] Ancestor 4: 1
+Feb 13 21:17:01 caleb-VirtualBox kernel: [ 2243.632705] Ancestor 5: 0
+Feb 13 21:17:01 caleb-VirtualBox kernel: [ 2243.632707] Ancestor 6: 0
+Feb 13 21:17:01 caleb-VirtualBox kernel: [ 2243.632708] Ancestor 7: 0
+Feb 13 21:17:01 caleb-VirtualBox kernel: [ 2243.632709] Ancestor 8: 0
+Feb 13 21:17:01 caleb-VirtualBox kernel: [ 2243.632710] Ancestor 9: 0
+Feb 13 21:18:29 caleb-VirtualBox kernel: [ 2327.463269] Unloaded interceptor!
+Feb 13 21:18:33 caleb-VirtualBox kernel: [ 2331.664422] Interceptor: Found syscall table at address: 0xC17F3240Loaded interceptor!
+Feb 13 21:18:33 caleb-VirtualBox kernel: [ 2335.613685] Current: 1657
+Feb 13 21:18:33 caleb-VirtualBox kernel: [ 2335.613690] Ancestor 0: 1651
+Feb 13 21:18:33 caleb-VirtualBox kernel: [ 2335.613692] Ancestor 1: 989
+Feb 13 21:18:33 caleb-VirtualBox kernel: [ 2335.613693] Ancestor 2: 946
+Feb 13 21:18:33 caleb-VirtualBox kernel: [ 2335.613694] Ancestor 3: 829
+Feb 13 21:18:33 caleb-VirtualBox kernel: [ 2335.613695] Ancestor 4: 1
+Feb 13 21:18:33 caleb-VirtualBox kernel: [ 2335.613697] Ancestor 5: 0
+Feb 13 21:18:33 caleb-VirtualBox kernel: [ 2335.613698] Ancestor 6: 0
+Feb 13 21:18:33 caleb-VirtualBox kernel: [ 2335.613699] Ancestor 7: 0
+Feb 13 21:18:33 caleb-VirtualBox kernel: [ 2335.613701] Ancestor 8: 0
+Feb 13 21:18:33 caleb-VirtualBox kernel: [ 2335.613702] Ancestor 9: 0
+Feb 13 21:23:59 caleb-VirtualBox kernel: [ 2645.841402] Unloaded interceptor!
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2661.520244] Interceptor: Found syscall table at address: 0xC17F3240Loaded interceptor!
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357485] Current: 1657
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357489] Ancestor 0: 1651
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357491] Ancestor 1: 989
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357492] Ancestor 2: 946
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357494] Ancestor 3: 829
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357495] Ancestor 4: 1
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357496] Ancestor 5: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357497] Ancestor 6: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357499] Ancestor 7: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357500] Ancestor 8: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357501] Ancestor 9: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357506] Child 0: 189
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357508] Child 1: 242
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357509] Child 2: 310
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357510] Child 3: 653
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357511] Child 4: 654
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357513] Child 5: 659
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357514] Child 6: 669
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357515] Child 7: 692
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357516] Child 8: 700
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357518] Child 9: 705
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357519] Child 10: 714
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357520] Child 11: 745
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357522] Child 12: 811
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357523] Child 13: 814
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357524] Child 14: 829
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357525] Child 15: 955
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357527] Child 16: 1294
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357528] Child 17: 1348
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357529] Child 18: 1361
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357531] Child 19: 1426
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357532] Child 20: 1430
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357533] Child 21: 1514
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357534] Child 22: 2264
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357536] Child 23: 2267
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357537] Child 24: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357538] Child 25: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357539] Child 26: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357541] Child 27: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357542] Child 28: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357543] Child 29: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357544] Child 30: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357546] Child 31: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357547] Child 32: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357548] Child 33: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357549] Child 34: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357551] Child 35: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357552] Child 36: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357553] Child 37: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357554] Child 38: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357556] Child 39: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357557] Child 40: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357558] Child 41: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357559] Child 42: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357561] Child 43: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357562] Child 44: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357563] Child 45: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357564] Child 46: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357566] Child 47: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357567] Child 48: -245572752
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357568] Child 49: 1
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357570] Child 50: 3147671
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357571] Child 51: -161203344
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357572] Child 52: -1052995633
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357574] Child 53: -161203352
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357575] Child 54: -165408652
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357576] Child 55: -1214711474
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357578] Child 56: -161203312
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357579] Child 57: -1055405696
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357580] Child 58: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357581] Child 59: -146630480
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357583] Child 60: -245572748
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357584] Child 61: -161203312
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357585] Child 62: -1055340921
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357587] Child 63: -146630496
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357588] Child 64: 1
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357589] Child 65: 1
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357590] Child 66: -146195656
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357592] Child 67: -1046334233
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357593] Child 68: -161203256
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357594] Child 69: -1056522714
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357596] Child 70: -245572752
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357597] Child 71: 3147671
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357598] Child 72: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357600] Child 73: 1
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357601] Child 74: -146760016
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357602] Child 75: -1046334233
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357603] Child 76: -161203224
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357605] Child 77: -1056522714
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357606] Child 78: -161203248
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357607] Child 79: 1
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357609] Child 80: -161203128
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357610] Child 81: -1055371315
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357611] Child 82: 2
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357612] Child 83: 1
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357614] Child 84: -146759976
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357615] Child 85: -1046334233
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357616] Child 86: -161203216
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357618] Child 87: 1
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357619] Child 88: -161203096
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357620] Child 89: -1055371315
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357621] Child 90: 2
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357623] Child 91: 449
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357624] Child 92: 50354
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357625] Child 93: 128
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357627] Child 94: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357628] Child 95: -1044722688
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357629] Child 96: 1
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357631] Child 97: -1044725748
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357632] Child 98: -1044722688
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357633] Child 99: 1
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357635] Sibling 0: 2
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357636] Sibling 1: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357637] Sibling 2: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357638] Sibling 3: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357640] Sibling 4: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357641] Sibling 5: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357642] Sibling 6: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357643] Sibling 7: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357645] Sibling 8: 0
+Feb 13 21:24:03 caleb-VirtualBox kernel: [ 2665.357646] Sibling 9: 0
+Feb 13 21:13:51 caleb-VirtualBox rsyslogd: [origin software="rsyslogd" swVersion="8.16.0" x-pid="697" x-info="http://www.rsyslog.com"] start
+Feb 13 21:13:51 caleb-VirtualBox rsyslogd-2222: command 'KLogPermitNonKernelFacility' is currently not permitted - did you already set it via a RainerScript command (v6+ config)? [v8.16.0 try http://www.rsyslog.com/e/2222 ]
+Feb 13 21:13:51 caleb-VirtualBox rsyslogd: rsyslogd's groupid changed to 108
+Feb 13 21:13:51 caleb-VirtualBox rsyslogd: rsyslogd's userid changed to 104
+Feb 13 21:13:51 caleb-VirtualBox rsyslogd-2039: Could not open output pipe '/dev/xconsole':: No such file or directory [v8.16.0 try http://www.rsyslog.com/e/2039 ]
+Feb 13 21:13:51 caleb-VirtualBox rsyslogd-2007: action 'action 10' suspended, next retry is Thu Feb 13 21:14:21 2020 [v8.16.0 try http://www.rsyslog.com/e/2007 ]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Initializing cgroup subsys cpuset
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Initializing cgroup subsys cpu
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Linux version 4.4.203cjralphs (root@caleb-VirtualBox) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ) #1 SMP Tue Jan 21 03:19:13 EST 2020 (Ubuntu 4.4.0-171.200-generic 4.4.203)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] KERNEL supported cpus:
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]   Intel GenuineIntel
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]   AMD AuthenticAMD
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]   NSC Geode by NSC
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]   Cyrix CyrixInstead
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]   Centaur CentaurHauls
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]   Transmeta GenuineTMx86
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]   Transmeta TransmetaCPU
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]   UMC UMC UMC UMC
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x01: 'x87 floating point registers'
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x02: 'SSE registers'
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x04: 'AVX registers'
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000003ffeffff] usable
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x000000003fff0000-0x000000003fffffff] ACPI data
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] NX (Execute Disable) protection: active
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] SMBIOS 2.5 present.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Hypervisor detected: KVM
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] e820: last_pfn = 0x3fff0 max_arch_pfn = 0x1000000
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] MTRR default type: uncachable
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] MTRR variable ranges disabled:
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] MTRR: Disabled
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] CPU MTRRs all blank - virtualized system.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] found SMP MP-table at [mem 0x0009fff0-0x0009ffff] mapped at [c009fff0]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] initial memory mapped: [mem 0x00000000-0x021fffff]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Base memory trampoline at [c009b000] 9b000 size 16384
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] BRK [0x01d9d000, 0x01d9dfff] PGTABLE
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] BRK [0x01d9e000, 0x01d9efff] PGTABLE
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] RAMDISK: [mem 0x331c2000-0x358d8fff]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] ACPI: XSDT 0x000000003FFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] ACPI: FACP 0x000000003FFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] ACPI: DSDT 0x000000003FFF0470 002325 (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000003FFF0200 000040
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000003FFF0200 000040
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] ACPI: APIC 0x000000003FFF0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] ACPI: SSDT 0x000000003FFF02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] 131MB HIGHMEM available.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] 891MB LOWMEM available.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]   mapped low ram: 0 - 37bfe000
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]   low ram: 0 - 37bfe000
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] kvm-clock: cpu 0, msr 0:37bfd001, primary cpu clock
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] kvm-clock: using sched offset of 37427716740325 cycles
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Zone ranges:
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]   Normal   [mem 0x0000000001000000-0x0000000037bfdfff]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]   HighMem  [mem 0x0000000037bfe000-0x000000003ffeffff]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Movable zone start for each node
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Early memory node ranges
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x000000003ffeffff]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x000000003ffeffff]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] On node 0 totalpages: 262030
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]   DMA zone: 40 pages used for memmap
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]   DMA zone: 0 pages reserved
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]   Normal zone: 2190 pages used for memmap
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]   Normal zone: 224254 pages, LIFO batch:31
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]   HighMem zone: 33778 pages, LIFO batch:7
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Using APIC driver default
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] IOAPIC[0]: apic_id 1, version 32, address 0xfec00000, GSI 0-23
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] ACPI: IRQ0 used by override.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] ACPI: IRQ9 used by override.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] e820: [mem 0x40000000-0xfebfffff] available for PCI devices
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] setup_percpu: NR_CPUS:8 nr_cpumask_bits:8 nr_cpu_ids:1 nr_node_ids:1
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] PERCPU: Embedded 18 pages/cpu @f71c4000 s43276 r0 d30452 u73728
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] pcpu-alloc: s43276 r0 d30452 u73728 alloc=18*4096
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] pcpu-alloc: [0] 0 
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 259800
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.4.203cjralphs root=UUID=d04d1460-aa87-42dc-af1c-81da4c4842c5 ro quiet splash
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Initializing CPU#0
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Initializing HighMem for node 0 (00037bfe:0003fff0)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Initializing Movable for node 0 (00000000:00000000)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Memory: 982800K/1048120K available (8132K kernel code, 791K rwdata, 3172K rodata, 936K init, 788K bss, 65320K reserved, 0K cma-reserved, 135112K highmem)
+Feb 13 21:13:51 caleb-VirtualBox systemd-modules-load[181]: Inserted module 'lp'
+Feb 13 21:13:51 caleb-VirtualBox systemd-modules-load[181]: Inserted module 'ppdev'
+Feb 13 21:13:51 caleb-VirtualBox systemd-modules-load[181]: Inserted module 'parport_pc'
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Flush Journal to Persistent Storage...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Flush Journal to Persistent Storage.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started udev Kernel Device Manager.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started udev Coldplug all Devices.
+Feb 13 21:13:51 caleb-VirtualBox loadkeys[186]: Loading /etc/console-setup/cached.kmap.gz
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Set console keymap.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Show Plymouth Boot Screen...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Reached target Local File Systems (Pre).
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Reached target Local File Systems.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Set console font and keymap...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting LSB: AppArmor initialization...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Create Volatile Files and Directories...
+Feb 13 21:13:51 caleb-VirtualBox systemd-tmpfiles[256]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Clean up any mess left by 0dns-up...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Create Volatile Files and Directories.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Show Plymouth Boot Screen.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Clean up any mess left by 0dns-up.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Nameserver information manager...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Network Time Synchronization...
+Feb 13 21:13:51 caleb-VirtualBox systemd-timesyncd[295]: System clock time unset or jumped backwards, restoring from recorded timestamp: Thu 2020-02-13 21:13:49 EST
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Nameserver information manager.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Network Time Synchronization.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Time has been changed
+Feb 13 21:13:51 caleb-VirtualBox apparmor[255]:  * Starting AppArmor profiles
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Reached target System Time Synchronized.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Reached target Network (Pre).
+Feb 13 21:13:51 caleb-VirtualBox apparmor[255]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+Feb 13 21:13:51 caleb-VirtualBox apparmor[255]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Feb 13 21:13:51 caleb-VirtualBox apparmor[255]:    ...done.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started LSB: AppArmor initialization.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Raise network interfaces...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Set console font and keymap.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Created slice system-getty.slice.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Received SIGRTMIN+20 from PID 262 (plymouthd).
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Raise network interfaces.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Found device VBOX_HARDDISK 5.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Activating swap /dev/disk/by-uuid/5e7ac508-65dc-41b2-b678-109ae3f125d6...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Activated swap /dev/disk/by-uuid/5e7ac508-65dc-41b2-b678-109ae3f125d6.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Reached target Swap.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Reached target System Initialization.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Listening on UUID daemon activation socket.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started CUPS Scheduler.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started ACPI Events Check.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Reached target Paths.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Socket activation for snappy daemon.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Daily apt download activities.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Listening on D-Bus System Message Bus Socket.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Message of the Day.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Listening on ACPID Listen Socket.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Daily Cleanup of Temporary Directories.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Listening on CUPS Scheduler.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Daily apt upgrade and clean activities.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Reached target Timers.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Listening on Socket activation for snappy daemon.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Reached target Sockets.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Reached target Basic System.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Login Service...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Thermal Daemon Service...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting LSB: daemon to balance interrupts for SMP systems...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting LSB: automatic crash report generation...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Regular background program processing daemon.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Detect the available GPUs and deal with any system changes...
+Feb 13 21:13:51 caleb-VirtualBox cron[657]: (CRON) INFO (pidfile fd = 3)
+Feb 13 21:13:51 caleb-VirtualBox gpu-manager[658]: /etc/modprobe.d is not a file
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting LSB: Speech Dispatcher...
+Feb 13 21:13:51 caleb-VirtualBox gpu-manager[658]: /etc/modprobe.d is not a file
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] virtual kernel memory layout:
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]     fixmap  : 0xfff15000 - 0xfffff000   ( 936 kB)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]     pkmap   : 0xffc00000 - 0xffe00000   (2048 kB)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]     vmalloc : 0xf83fe000 - 0xffbfe000   ( 120 MB)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]     lowmem  : 0xc0000000 - 0xf7bfe000   ( 891 MB)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]       .init : 0xc1bd3000 - 0xc1cbd000   ( 936 kB)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]       .data : 0xc17f13b0 - 0xc1bd1c80   (3970 kB)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000]       .text : 0xc1000000 - 0xc17f13b0   (8132 kB)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Checking if this processor honours the WP bit even in supervisor mode...Ok.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Hierarchical RCU implementation.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] 	Build-time adjustment of leaf fanout to 32.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=8 to nr_cpu_ids=1.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=32, nr_cpu_ids=1
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] NR_IRQS:2304 nr_irqs:256 16
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] CPU 0 irqstacks, hard=f6c34000 soft=f6c36000
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] Console: colour VGA+ 80x25
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] console [tty0] enabled
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] allocated 1048576 bytes of page_ext
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.000000] tsc: Detected 2592.002 MHz processor
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.038588] Calibrating delay loop (skipped) preset value.. 5184.00 BogoMIPS (lpj=10368008)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.038592] pid_max: default: 32768 minimum: 301
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.038597] ACPI: Core revision 20150930
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.040417] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.040435] Security Framework initialized
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.040437] Yama: becoming mindful.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.040452] AppArmor: AppArmor initialized
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.040486] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.040487] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.040646] Initializing cgroup subsys io
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.040650] Initializing cgroup subsys memory
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.040656] Initializing cgroup subsys devices
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.040658] Initializing cgroup subsys freezer
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.040676] Initializing cgroup subsys net_cls
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.040678] Initializing cgroup subsys perf_event
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.040680] Initializing cgroup subsys net_prio
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.040683] Initializing cgroup subsys hugetlb
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.040685] Initializing cgroup subsys pids
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.044275] mce: CPU supports 0 MCE banks
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.044298] process: using mwait in idle threads
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.044311] Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.044312] Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.044315] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.044318] Spectre V2 : Mitigation: Full generic retpoline
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.044319] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.044321] Speculative Store Bypass: Vulnerable
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.044403] MDS: Vulnerable: Clear CPU buffers attempted, no microcode
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.076440] Freeing SMP alternatives memory: 36K
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.083562] ftrace: allocating 31527 entries in 62 pages
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.157619] smpboot: APIC(0) Converting physical 0 to logical package 0
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.157621] smpboot: Max logical packages: 1
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.157638] Enabling APIC mode:  Flat.  Using 1 I/O APICs
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.158959] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.267153] smpboot: CPU0: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz (family: 0x6, model: 0x4e, stepping: 0x3)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.267178] Performance Events: unsupported p6 CPU model 78 no PMU driver, software events only.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.277310] KVM setup paravirtual spinlock
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.277998] x86: Booted up 1 node, 1 CPUs
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.278000] smpboot: Total of 1 processors activated (5184.00 BogoMIPS)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.278256] devtmpfs: initialized
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.278496] evm: security.selinux
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.278498] evm: security.SMACK64
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.278499] evm: security.SMACK64EXEC
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.278500] evm: security.SMACK64TRANSMUTE
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.278501] evm: security.SMACK64MMAP
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.278502] evm: security.ima
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.278503] evm: security.capability
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.278634] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.278638] futex hash table entries: 256 (order: 2, 16384 bytes)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.278696] pinctrl core: initialized pinctrl subsystem
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.278793] RTC time: 10:53:44, date: 02/13/20
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.278908] NET: Registered protocol family 16
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.279057] EISA bus registered
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.279061] cpuidle: using governor ladder
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.279064] cpuidle: using governor menu
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.279067] PCCT header not found.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.279150] ACPI: bus type PCI registered
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.279152] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.279413] PCI : PCI BIOS area is rw and x. Use pci=nobios if you want it NX.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.279416] PCI: PCI BIOS revision 2.10 entry at 0xfda26, last bus=0
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.279417] PCI: Using configuration type 1 for base access
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.280619] ACPI: Added _OSI(Module Device)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.280621] ACPI: Added _OSI(Processor Device)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.280622] ACPI: Added _OSI(3.0 _SCP Extensions)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.280623] ACPI: Added _OSI(Processor Aggregator Device)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.281360] ACPI: Executed 1 blocks of module-level executable AML code
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.283577] ACPI: Interpreter enabled
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.283591] ACPI: (supports S0 S5)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.283593] ACPI: Using IOAPIC for interrupt routing
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.283752] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.288554] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.288559] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.288933] acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.288937] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.289423] PCI host bridge to bus 0000:00
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.289426] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.289428] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.289430] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.289432] pci_bus 0000:00: root bus resource [mem 0x40000000-0xfdffffff window]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.289435] pci_bus 0000:00: root bus resource [bus 00-ff]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.289486] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.290205] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.291056] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.291517] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.291706] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.291707] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.291709] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.291711] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.291970] pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.292994] pci 0000:00:02.0: reg 0x10: [io  0xd010-0xd01f]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.293786] pci 0000:00:02.0: reg 0x14: [mem 0xf0000000-0xf0ffffff pref]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.294537] pci 0000:00:02.0: reg 0x18: [mem 0xf1000000-0xf11fffff]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.303678] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.304657] pci 0000:00:03.0: reg 0x10: [mem 0xf1200000-0xf121ffff]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.306152] pci 0000:00:03.0: reg 0x18: [io  0xd020-0xd027]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.309575] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.310436] pci 0000:00:04.0: reg 0x10: [io  0xd040-0xd05f]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.311221] pci 0000:00:04.0: reg 0x14: [mem 0xf1400000-0xf17fffff]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.311956] pci 0000:00:04.0: reg 0x18: [mem 0xf1800000-0xf1803fff pref]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.315213] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.315355] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.315457] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.316186] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.317040] pci 0000:00:06.0: reg 0x10: [mem 0xf1804000-0xf1804fff]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.321539] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.322164] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.322182] pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.322616] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.323645] pci 0000:00:0d.0: reg 0x10: [io  0xd240-0xd247]
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting LSB: Set the CPU Frequency Scaling governor to "ondemand"...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started D-Bus System Message Bus.
+Feb 13 21:13:51 caleb-VirtualBox cron[657]: (CRON) INFO (Running @reboot jobs)
+Feb 13 21:13:51 caleb-VirtualBox gpu-manager[658]: /etc/modprobe.d is not a file
+Feb 13 21:13:51 caleb-VirtualBox gpu-manager[658]: message repeated 2 times: [ /etc/modprobe.d is not a file]
+Feb 13 21:13:51 caleb-VirtualBox gpu-manager[658]: Error: can't open /lib/modules/4.4.203cjralphs/updates/dkms
+Feb 13 21:13:51 caleb-VirtualBox gpu-manager[658]: Error: can't open /lib/modules/4.4.203cjralphs/updates/dkms
+Feb 13 21:13:51 caleb-VirtualBox dbus[673]: [system] AppArmor D-Bus mediation is enabled
+Feb 13 21:13:51 caleb-VirtualBox gpu-manager[658]: update-alternatives: error: no alternatives for i386-linux-gnu_gfxcore_conf
+Feb 13 21:13:51 caleb-VirtualBox dbus[673]: [system] Successfully activated service 'org.freedesktop.systemd1'
+Feb 13 21:13:51 caleb-VirtualBox thermald[645]: NO RAPL sysfs present
+Feb 13 21:13:51 caleb-VirtualBox thermald[645]: 22 CPUID levels; family:model:stepping 0x6:4e:3 (6:78:3)
+Feb 13 21:13:51 caleb-VirtualBox thermald[645]: Polling mode is enabled: 4
+Feb 13 21:13:51 caleb-VirtualBox thermald[645]: Thermal DTS: No coretemp sysfs found
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Thermal Daemon Service.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting System Logging Service...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Run anacron jobs.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting LSB: Record successful boot for GRUB...
+Feb 13 21:13:51 caleb-VirtualBox anacron[698]: Anacron 2.3 started on 2020-02-13
+Feb 13 21:13:51 caleb-VirtualBox thermald[645]: Thermal DTS or hwmon: No Zones present Need to configure manually
+Feb 13 21:13:51 caleb-VirtualBox thermald[645]: No thermal sensors found
+Feb 13 21:13:51 caleb-VirtualBox thermald[645]: THD engine start failed
+Feb 13 21:13:51 caleb-VirtualBox anacron[698]: Normal exit (0 jobs run)
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Accounts Service...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Snappy daemon...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Modem Manager...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Network Manager...
+Feb 13 21:13:51 caleb-VirtualBox avahi-daemon[721]: Found user 'avahi' (UID 111) and group 'avahi' (GID 120).
+Feb 13 21:13:51 caleb-VirtualBox avahi-daemon[721]: Successfully dropped root privileges.
+Feb 13 21:13:51 caleb-VirtualBox avahi-daemon[721]: avahi-daemon 0.6.32-rc starting up.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Permit User Sessions...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Restore /etc/resolv.conf if the system crashed before the ppp link was shut down...
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.324323] pci 0000:00:0d.0: reg 0x14: [io  0xd248-0xd24b]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.324914] pci 0000:00:0d.0: reg 0x18: [io  0xd250-0xd257]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.325572] pci 0000:00:0d.0: reg 0x1c: [io  0xd258-0xd25b]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.326127] pci 0000:00:0d.0: reg 0x20: [io  0xd260-0xd26f]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.326687] pci 0000:00:0d.0: reg 0x24: [mem 0xf1806000-0xf1807fff]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.327894] pci_bus 0000:00: on NUMA node 0
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.329209] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.329541] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.329661] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.329780] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.329950] ACPI: Enabled 2 GPEs in block 00 to 07
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.330226] vgaarb: setting as boot device: PCI:0000:00:02.0
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.330229] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.330231] vgaarb: loaded
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.330233] vgaarb: bridge control possible 0000:00:02.0
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.330521] SCSI subsystem initialized
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.330562] libata version 3.00 loaded.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.330595] ACPI: bus type USB registered
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.330620] usbcore: registered new interface driver usbfs
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.330630] usbcore: registered new interface driver hub
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.330640] usbcore: registered new device driver usb
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.330796] PCI: Using ACPI for IRQ routing
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.330798] PCI: pci_cache_line_size set to 64 bytes
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.331131] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.331136] e820: reserve RAM buffer [mem 0x3fff0000-0x3fffffff]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.331292] NetLabel: Initializing
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.331293] NetLabel:  domain hash size = 128
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.331294] NetLabel:  protocols = UNLABELED CIPSOv4
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.331306] NetLabel:  unlabeled traffic allowed by default
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.331426] amd_nb: Cannot enumerate AMD northbridges
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.331452] clocksource: Switched to clocksource kvm-clock
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.340178] AppArmor: AppArmor Filesystem Enabled
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.340251] pnp: PnP ACPI init
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.340321] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.340399] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.341268] pnp: PnP ACPI: found 2 devices
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.341275] PnPBIOS: Disabled by ACPI PNP
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.377596] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.377612] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.377615] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.377617] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.377619] pci_bus 0000:00: resource 7 [mem 0x40000000-0xfdffffff window]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.377647] NET: Registered protocol family 2
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.377814] TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.377822] TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.377833] TCP: Hash tables configured (established 8192 bind 8192)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.377846] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.377849] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.377955] NET: Registered protocol family 1
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.377970] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.378019] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.378055] pci 0000:00:02.0: Video device with shadowed ROM
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.379137] PCI: CLS 0 bytes, default 64
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.379193] Unpacking initramfs...
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.926615] Freeing initrd memory: 40028K
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.926766] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x255cb8d7d74, max_idle_ns: 440795265546 ns
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.926801] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.926829] Scanning for low memory corruption every 60 seconds
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.927078] audit: initializing netlink subsys (disabled)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.927091] audit: type=2000 audit(1581684524.310:1): initialized
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.927355] Initialise system trusted keyring
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.927486] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.928690] zbud: loaded
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.928778] VFS: Disk quotas dquot_6.6.0
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.928804] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.928963] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.929125] fuse init (API version 7.23)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.929224] Key type big_key registered
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.929238] Allocating IMA MOK and blacklist keyrings.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.929444] Key type asymmetric registered
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.929450] Asymmetric key parser 'x509' registered
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.929464] bounce: pool size: 64 pages
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.929490] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.929508] io scheduler noop registered
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.929511] io scheduler deadline registered (default)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.929536] io scheduler cfq registered
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.929628] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.929634] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.929762] ACPI: AC Adapter [AC] (on-line)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.929807] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.929810] ACPI: Power Button [PWRF]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.929881] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.929883] ACPI: Sleep Button [SLPF]
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.929995] GHES: HEST is not enabled!
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.930771] ACPI: Battery Slot [BAT0] (battery present)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.930793] isapnp: Scanning for PnP cards...
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.936440] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.937636] Linux agpgart interface v0.103
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.982786] loop: module loaded
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.982915] ata_piix 0000:00:01.1: version 2.13
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.983323] scsi host0: ata_piix
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.983374] scsi host1: ata_piix
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.983403] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.983404] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.983474] libphy: Fixed MDIO Bus: probed
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.983477] tun: Universal TUN/TAP device driver, 1.6
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.983478] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.983777] PPP generic driver version 2.4.2
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.983828] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.983832] ehci-pci: EHCI PCI platform driver
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.983841] ehci-platform: EHCI generic platform driver
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.983849] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.983852] ohci-pci: OHCI PCI platform driver
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.984422] ohci-pci 0000:00:06.0: OHCI PCI host controller
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.984428] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    0.984493] ohci-pci 0000:00:06.0: irq 22, io mem 0xf1804000
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.072811] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.072816] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.072819] usb usb1: Product: OHCI PCI host controller
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.072821] usb usb1: Manufacturer: Linux 4.4.203cjralphs ohci_hcd
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.072823] usb usb1: SerialNumber: 0000:00:06.0
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.072937] hub 1-0:1.0: USB hub found
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.072953] hub 1-0:1.0: 12 ports detected
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.073331] ohci-platform: OHCI generic platform driver
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.073344] uhci_hcd: USB Universal Host Controller Interface driver
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.073400] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.074002] serio: i8042 KBD port at 0x60,0x64 irq 1
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.074009] serio: i8042 AUX port at 0x60,0x64 irq 12
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.074149] mousedev: PS/2 mouse device common for all mice
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.074548] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.075154] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.075229] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.075239] i2c /dev entries driver
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.075297] device-mapper: uevent: version 1.0.3
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.075362] device-mapper: ioctl: 4.34.0-ioctl (2015-10-28) initialised: dm-devel@redhat.com
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.075393] platform eisa.0: Probing EISA bus 0
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.075396] platform eisa.0: EISA: Cannot allocate resource for mainboard
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.075406] platform eisa.0: Cannot allocate resource for EISA slot 1
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.075408] platform eisa.0: Cannot allocate resource for EISA slot 2
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.075411] platform eisa.0: Cannot allocate resource for EISA slot 3
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.075413] platform eisa.0: Cannot allocate resource for EISA slot 4
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.075415] platform eisa.0: Cannot allocate resource for EISA slot 5
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.075417] platform eisa.0: Cannot allocate resource for EISA slot 6
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.075420] platform eisa.0: Cannot allocate resource for EISA slot 7
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.075422] platform eisa.0: Cannot allocate resource for EISA slot 8
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.075424] platform eisa.0: EISA: Detected 0 cards
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.075448] cpufreq-nforce2: No nForce2 chipset.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.075459] ledtrig-cpu: registered to indicate activity on CPUs
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.075839] NET: Registered protocol family 10
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.076053] NET: Registered protocol family 17
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.076063] Key type dns_resolver registered
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.076218] Using IPI No-Shortcut mode
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.076349] registered taskstats version 1
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.076366] Loading compiled-in X.509 certificates
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.079196] Loaded X.509 cert 'Build time autogenerated kernel key: ef103cbdd68080c0d1f15239051f95fcd1af64ca'
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.079241] zswap: loaded using pool lzo/zbud
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.081712] Key type trusted registered
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.084819] Key type encrypted registered
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.084824] AppArmor: AppArmor sha1 policy hashing enabled
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.084835] ima: No TPM chip found, activating TPM-bypass!
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.084843] ima: Allocated hash algorithm: sha1
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.084854] evm: HMAC attrs: 0x1
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.085168]   Magic number: 8:350:881
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.085237] rtc_cmos rtc_cmos: setting system clock to 2020-02-13 10:53:44 UTC (1581591224)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.085296] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.085297] EDD information not available.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.085333] PM: Hibernation image not present or could not be loaded.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.185939] ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.186387] ata2.00: configured for UDMA/33
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.320319] isapnp: No Plug & Play device found
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.320662] scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.328294] sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.328297] cdrom: Uniform CD-ROM driver Revision: 3.20
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.328412] sr 1:0:0:0: Attached scsi CD-ROM sr0
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.328451] sr 1:0:0:0: Attached scsi generic sg0 type 5
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.328737] Freeing unused kernel memory: 936K
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.339806] Write protecting the kernel text: 8136k
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.339828] Write protecting the kernel read-only data: 3176k
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.339829] NX-protecting the kernel data: 6200k
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.349959] random: udevadm: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.352639] random: systemd-udevd: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.352714] random: systemd-udevd: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.372918] random: udevadm: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.372984] random: udevadm: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.373084] random: udevadm: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.373160] random: udevadm: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.373221] random: udevadm: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.373293] random: udevadm: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.373376] random: udevadm: uninitialized urandom read (16 bytes read, 2 bits of entropy available)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.431682] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.431752] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input4
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.462952] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.462955] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.476103] [drm] Initialized drm 1.1.0 20060810
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.705753] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.925063] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:a6:1a:6c
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.925069] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.925092] ahci 0000:00:0d.0: version 3.0
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.925633] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.925785] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.925789] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.926962] e1000 0000:00:03.0 enp0s3: renamed from eth0
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.928192] scsi host2: ahci
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.928248] ata3: SATA max UDMA/133 abar m8192@0xf1806000 port 0xf1806100 irq 21
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929287] [drm] DMA map mode: Using physical TTM page addresses.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929332] [drm] Capabilities:
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929333] [drm]   Cursor.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929333] [drm]   Cursor bypass 2.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929334] [drm]   Alpha cursor.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929335] [drm]   3D.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929336] [drm]   Extended Fifo.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929337] [drm]   Pitchlock.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929338] [drm]   Irq mask.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929339] [drm]   GMR.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929339] [drm]   Traces.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929340] [drm]   GMR2.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929341] [drm]   Screen Object 2.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929342] [drm] Max GMR ids is 8192
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929343] [drm] Max number of GMR pages is 1048576
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929344] [drm] Max dedicated hypervisor surface memory is 507904 kiB
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929345] [drm] Maximum display memory size is 16384 kiB
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929347] [drm] VRAM at 0xf0000000 size is 16384 kiB
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929348] [drm] MMIO at 0xf1000000 size is 2048 kiB
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929349] [drm] global init.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929556] [TTM] Zone  kernel: Available graphics memory: 444344 kiB
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929557] [TTM] Zone highmem: Available graphics memory: 511900 kiB
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929558] [TTM] Initializing pool allocator
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929562] [TTM] Initializing DMA pool allocator
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929629] [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929631] [drm] No driver support for vblank timestamp query.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929845] [drm] Screen Objects Display Unit initialized
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929895] [drm] width 720
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929907] [drm] height 400
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.929918] [drm] bpp 32
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.930128] [drm] Fifo max 0x00200000 min 0x00001000 cap 0x00000355
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.930135] [drm] DX: no.
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.933636] fbcon: svgadrmfb (fb0) is primary device
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.959298] Console: switching to colour frame buffer device 100x37
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    1.961140] [drm] Initialized vmwgfx 2.9.0 20150810 for 0000:00:02.0 on minor 0
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    2.268249] ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    2.268482] ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    2.268486] ata3.00: 52428800 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    2.268896] ata3.00: configured for UDMA/133
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    2.268997] scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    2.269221] sd 2:0:0:0: [sda] 52428800 512-byte logical blocks: (26.8 GB/25.0 GiB)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    2.269252] sd 2:0:0:0: [sda] Write Protect is off
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    2.269255] sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    2.269268] sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    2.269428] sd 2:0:0:0: Attached scsi generic sg1 type 0
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    2.272633]  sda: sda1 sda2 < sda5 >
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    2.272867] sd 2:0:0:0: [sda] Attached SCSI disk
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    2.757303] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    3.046554] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    3.124718] lp: driver loaded but no devices found
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    3.142703] ppdev: user-space parallel port driver
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    3.390041] random: nonblocking pool is initialized
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    3.697509] audit: type=1400 audit(1581646430.162:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lightdm/lightdm-guest-session" pid=404 comm="apparmor_parser"
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    3.697516] audit: type=1400 audit(1581646430.162:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lightdm/lightdm-guest-session//chromium" pid=404 comm="apparmor_parser"
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    3.718125] audit: type=1400 audit(1581646430.182:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=405 comm="apparmor_parser"
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    3.718133] audit: type=1400 audit(1581646430.182:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=405 comm="apparmor_parser"
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    3.718137] audit: type=1400 audit(1581646430.182:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=405 comm="apparmor_parser"
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    3.718141] audit: type=1400 audit(1581646430.182:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=405 comm="apparmor_parser"
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    3.762921] audit: type=1400 audit(1581646430.226:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince" pid=406 comm="apparmor_parser"
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    3.762928] audit: type=1400 audit(1581646430.226:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince//sanitized_helper" pid=406 comm="apparmor_parser"
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    3.762932] audit: type=1400 audit(1581646430.226:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-previewer" pid=406 comm="apparmor_parser"
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    4.191372] piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    4.281562] vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    4.337992] input: Unspecified device as /devices/pci0000:00/0000:00:04.0/input/input6
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    4.362911] vboxguest: misc device minor 55, IRQ 20, I/O port d040, MMIO at 00000000f1400000 (size 0x400000)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    4.362933] vboxguest: Successfully loaded version 5.0.18_Ubuntu (interface 0x00010004)
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    4.702494] Adding 1046524k swap on /dev/sda5.  Priority:-1 extents:1 across:1046524k FS
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    4.776760] intel_rapl: no valid rapl domains found in package 0
+Feb 13 21:13:51 caleb-VirtualBox kernel: [    4.894838] snd_intel8x0 0000:00:05.0: disable (unknown or VT-d) VM optimization
+Feb 13 21:13:51 caleb-VirtualBox ModemManager[714]: <info>  ModemManager (version 1.6.4) starting in system bus...
+Feb 13 21:13:51 caleb-VirtualBox avahi-daemon[721]: Successfully called chroot().
+Feb 13 21:13:51 caleb-VirtualBox avahi-daemon[721]: Successfully dropped remaining capabilities.
+Feb 13 21:13:51 caleb-VirtualBox avahi-daemon[721]: No service file found in /etc/avahi/services.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started ACPI event daemon.
+Feb 13 21:13:51 caleb-VirtualBox avahi-daemon[721]: Network interface enumeration completed.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started CUPS Scheduler.
+Feb 13 21:13:51 caleb-VirtualBox avahi-daemon[721]: Server startup complete. Host name is caleb-VirtualBox.local. Local service cookie is 2515813504.
+Feb 13 21:13:51 caleb-VirtualBox acpid: starting up with netlink and the input layer
+Feb 13 21:13:51 caleb-VirtualBox acpid: 9 rules loaded
+Feb 13 21:13:51 caleb-VirtualBox acpid: waiting for events: event logging is off
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started System Logging Service.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Detect the available GPUs and deal with any system changes.
+Feb 13 21:13:51 caleb-VirtualBox dbus[673]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkitd.service'
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Permit User Sessions.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Restore /etc/resolv.conf if the system crashed before the ppp link was shut down.
+Feb 13 21:13:51 caleb-VirtualBox snapd[712]: AppArmor status: apparmor is enabled and all features are available
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <info>  [1581646431.6191] NetworkManager (version 1.2.6) is starting...
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <info>  [1581646431.6202] Read config: /etc/NetworkManager/NetworkManager.conf (etc: default-wifi-powersave-on.conf)
+Feb 13 21:13:51 caleb-VirtualBox speech-dispatcher[666]:  * speech-dispatcher disabled; edit /etc/default/speech-dispatcher
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started LSB: Speech Dispatcher.
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <info>  [1581646431.6654] manager[0x86701d0]: monitoring kernel firmware directory '/lib/firmware'.
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <info>  [1581646431.6665] monitoring ifupdown state file '/run/network/ifstate'.
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <info>  [1581646431.6786] dns-mgr[0x86620b0]: init: dns=dnsmasq, rc-manager=resolvconf, plugin=dnsmasq
+Feb 13 21:13:51 caleb-VirtualBox irqbalance[646]:  * Starting SMP IRQ Balancer: irqbalance
+Feb 13 21:13:51 caleb-VirtualBox apport[652]:  * Starting automatic crash report generation: apport
+Feb 13 21:13:51 caleb-VirtualBox dbus[673]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started LSB: Set the CPU Frequency Scaling governor to "ondemand".
+Feb 13 21:13:51 caleb-VirtualBox /usr/sbin/irqbalance: Balancing is ineffective on systems with a single cpu.  Shutting down
+Feb 13 21:13:51 caleb-VirtualBox apport[652]:    ...done.
+Feb 13 21:13:51 caleb-VirtualBox irqbalance[646]:    ...done.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started LSB: daemon to balance interrupts for SMP systems.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started LSB: automatic crash report generation.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started LSB: Record successful boot for GRUB.
+Feb 13 21:13:51 caleb-VirtualBox snapd[712]: daemon.go:338: started snapd/2.40 (series 16; classic) ubuntu/16.04 (i386) linux/4.4.203cjralphs.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Network Manager.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Login Service.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Network Manager Wait Online...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Reached target Network.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Unattended Upgrades Shutdown.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Authenticate and Authorize Users to Run Privileged Tasks...
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Make remote CUPS printers available locally.
+Feb 13 21:13:51 caleb-VirtualBox dbus[673]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <info>  [1581646431.9222] init!
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <info>  [1581646431.9223] management mode: unmanaged
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <info>  [1581646431.9227] devices added (path: /sys/devices/pci0000:00/0000:00:03.0/net/enp0s3, iface: enp0s3)
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <info>  [1581646431.9227] device added (path: /sys/devices/pci0000:00/0000:00:03.0/net/enp0s3, iface: enp0s3): no ifupdown configuration found.
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <info>  [1581646431.9228] devices added (path: /sys/devices/virtual/net/lo, iface: lo)
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <info>  [1581646431.9228] device added (path: /sys/devices/virtual/net/lo, iface: lo): no ifupdown configuration found.
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <info>  [1581646431.9228] end _init.
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <info>  [1581646431.9228] settings: loaded plugin ifupdown: (C) 2008 Canonical Ltd.  To report bugs please use the NetworkManager mailing list. (/usr/lib/i386-linux-gnu/NetworkManager/libnm-settings-plugin-ifupdown.so)
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <info>  [1581646431.9229] settings: loaded plugin keyfile: (c) 2007 - 2015 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+Feb 13 21:13:51 caleb-VirtualBox dbus[673]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <info>  [1581646431.9283] SettingsPlugin-Ofono: init!
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <warn>  [1581646431.9284] SettingsPlugin-Ofono: file doesn't exist: /var/lib/ofono
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <info>  [1581646431.9284] SettingsPlugin-Ofono: end _init.
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <info>  [1581646431.9285] settings: loaded plugin ofono: (C) 2013-2016 Canonical Ltd.  To report bugs please use the NetworkManager mailing list. (/usr/lib/i386-linux-gnu/NetworkManager/libnm-settings-plugin-ofono.so)
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <info>  [1581646431.9285] (141087024) ... get_connections.
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <info>  [1581646431.9285] (141087024) ... get_connections (managed=false): return empty list.
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <info>  [1581646431.9289] SettingsPlugin-Ofono: (141087144) ... get_connections.
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <info>  [1581646431.9289] SettingsPlugin-Ofono: (141087144) connections count: 0
+Feb 13 21:13:51 caleb-VirtualBox NetworkManager[722]: <info>  [1581646431.9290] get unmanaged devices count: 0
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Starting Light Display Manager...
+Feb 13 21:13:51 caleb-VirtualBox polkitd[806]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Snappy daemon.
+Feb 13 21:13:51 caleb-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Feb 13 21:13:52 caleb-VirtualBox dbus[673]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Feb 13 21:13:52 caleb-VirtualBox systemd[1]: Started Authenticate and Authorize Users to Run Privileged Tasks.
+Feb 13 21:13:52 caleb-VirtualBox systemd[1]: Starting Hostname Service...
+Feb 13 21:13:52 caleb-VirtualBox accounts-daemon[700]: started daemon version 0.6.40
+Feb 13 21:13:52 caleb-VirtualBox systemd[1]: Starting Wait until snapd is fully seeded...
+Feb 13 21:13:52 caleb-VirtualBox systemd[1]: Started Accounts Service.
+Feb 13 21:13:52 caleb-VirtualBox systemd[1]: Started Modem Manager.
+Feb 13 21:13:52 caleb-VirtualBox dbus[673]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Feb 13 21:13:52 caleb-VirtualBox systemd[1]: Started Hostname Service.
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.1854] settings: hostname: using hostnamed
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.1855] settings: hostname changed from (none) to "caleb-VirtualBox"
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.1861] Using DHCP client 'dhclient'
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.1862] manager: WiFi enabled by radio killswitch; enabled by state file
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.1862] manager: WWAN enabled by radio killswitch; enabled by state file
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.1862] manager: Networking is enabled by state file
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.1863] Loaded device plugin: NMVxlanFactory (internal)
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.1863] Loaded device plugin: NMVlanFactory (internal)
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.1864] Loaded device plugin: NMVethFactory (internal)
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.1864] Loaded device plugin: NMTunFactory (internal)
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.1864] Loaded device plugin: NMMacvlanFactory (internal)
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.1867] Loaded device plugin: NMIPTunnelFactory (internal)
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.1867] Loaded device plugin: NMInfinibandFactory (internal)
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.1867] Loaded device plugin: NMEthernetFactory (internal)
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.1868] Loaded device plugin: NMBridgeFactory (internal)
+Feb 13 21:13:52 caleb-VirtualBox nm-dispatcher: req:1 'hostname': new request (1 scripts)
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.1894] Loaded device plugin: NMBondFactory (internal)
+Feb 13 21:13:52 caleb-VirtualBox nm-dispatcher: req:1 'hostname': start running ordered scripts...
+Feb 13 21:13:52 caleb-VirtualBox systemd[1]: Started Wait until snapd is fully seeded.
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.2033] Loaded device plugin: NMWwanFactory (/usr/lib/i386-linux-gnu/NetworkManager/libnm-device-plugin-wwan.so)
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.2207] Loaded device plugin: NMBluezManager (/usr/lib/i386-linux-gnu/NetworkManager/libnm-device-plugin-bluetooth.so)
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.2316] Loaded device plugin: NMAtmManager (/usr/lib/i386-linux-gnu/NetworkManager/libnm-device-plugin-adsl.so)
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.2424] Loaded device plugin: NMWifiFactory (/usr/lib/i386-linux-gnu/NetworkManager/libnm-device-plugin-wifi.so)
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: nm_device_get_device_type: assertion 'NM_IS_DEVICE (self)' failed
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.2522] device (lo): link connected
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.2645] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/0)
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.2774] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/1)
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.2988] keyfile: add connection in-memory (3665d8e4-670b-3fca-8a28-91f8d5a3a3b8,"Wired connection 1")
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.3084] settings: (enp0s3): created default wired connection 'Wired connection 1'
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.3270] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed') [10 20 2]
+Feb 13 21:13:52 caleb-VirtualBox kernel: [    5.861342] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Feb 13 21:13:52 caleb-VirtualBox kernel: [    5.864487] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.3446] device (enp0s3): link connected
+Feb 13 21:13:52 caleb-VirtualBox kernel: [    5.872488] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Feb 13 21:13:52 caleb-VirtualBox kernel: [    5.872512] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Feb 13 21:13:52 caleb-VirtualBox systemd[1]: Received SIGRTMIN+21 from PID 262 (plymouthd).
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.4072] urfkill disappeared from the bus
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.4621] ModemManager available in the bus
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.4657] ofono is now available
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <warn>  [1581646432.4909] failed to enumerate oFono devices: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.ofono was not provided by any .service files
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.4972] device (enp0s3): state change: unavailable -> disconnected (reason 'none') [20 30 0]
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.5055] policy: auto-activating connection 'Wired connection 1'
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.5806] device (enp0s3): Activation: starting connection 'Wired connection 1' (3665d8e4-670b-3fca-8a28-91f8d5a3a3b8)
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.5877] device (enp0s3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.5901] manager: NetworkManager state is now CONNECTING
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.6018] device (enp0s3): state change: prepare -> config (reason 'none') [40 50 0]
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.6077] device (enp0s3): state change: config -> ip-config (reason 'none') [50 70 0]
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.6139] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Feb 13 21:13:52 caleb-VirtualBox systemd[1]: Started Light Display Manager.
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.6228] dhcp4 (enp0s3): dhclient started with pid 856
+Feb 13 21:13:52 caleb-VirtualBox dhclient[856]: DHCPREQUEST of 10.0.2.15 on enp0s3 to 255.255.255.255 port 67 (xid=0x12c15c7f)
+Feb 13 21:13:52 caleb-VirtualBox dhclient[856]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.8075]   address 10.0.2.15
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.8110]   plen 24 (255.255.255.0)
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.8133]   gateway 10.0.2.2
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.8138]   server identifier 10.0.2.2
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.8138]   lease time 86400
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.8139]   nameserver '192.168.1.1'
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.8139]   domain name 'lab'
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.8140] dhcp4 (enp0s3): state changed unknown -> bound
+Feb 13 21:13:52 caleb-VirtualBox avahi-daemon[721]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Feb 13 21:13:52 caleb-VirtualBox avahi-daemon[721]: New relevant interface enp0s3.IPv4 for mDNS.
+Feb 13 21:13:52 caleb-VirtualBox avahi-daemon[721]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.8260] device (enp0s3): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Feb 13 21:13:52 caleb-VirtualBox dhclient[856]: bound to 10.0.2.15 -- renewal in 34739 seconds.
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.8621] device (enp0s3): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.9123] device (enp0s3): state change: secondaries -> activated (reason 'none') [90 100 0]
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.9141] manager: NetworkManager state is now CONNECTED_LOCAL
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.9738] manager: NetworkManager state is now CONNECTED_GLOBAL
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.9740] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Feb 13 21:13:52 caleb-VirtualBox NetworkManager[722]: <info>  [1581646432.9758] dns-plugin[0x867cd40]: starting dnsmasq...
+Feb 13 21:13:53 caleb-VirtualBox NetworkManager[722]: <info>  [1581646433.0408] dns-mgr: Writing DNS information to /sbin/resolvconf
+Feb 13 21:13:53 caleb-VirtualBox dnsmasq[868]: started, version 2.75 cache disabled
+Feb 13 21:13:53 caleb-VirtualBox dnsmasq[868]: compile time options: IPv6 GNU-getopt DBus i18n IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth DNSSEC loop-detect inotify
+Feb 13 21:13:53 caleb-VirtualBox dnsmasq[868]: DBus support enabled: connected to system bus
+Feb 13 21:13:53 caleb-VirtualBox dnsmasq[868]: warning: no upstream servers configured
+Feb 13 21:13:53 caleb-VirtualBox kernel: [    7.319214] snd_intel8x0 0000:00:05.0: white list rate for 1028:0177 is 48000
+Feb 13 21:13:53 caleb-VirtualBox systemd[1]: Reached target Sound Card.
+Feb 13 21:13:53 caleb-VirtualBox NetworkManager[722]: <info>  [1581646433.8595] device (enp0s3): Activation: successful, device activated.
+Feb 13 21:13:53 caleb-VirtualBox nm-dispatcher: req:2 'up' [enp0s3]: new request (1 scripts)
+Feb 13 21:13:53 caleb-VirtualBox nm-dispatcher: req:2 'up' [enp0s3]: start running ordered scripts...
+Feb 13 21:13:53 caleb-VirtualBox NetworkManager[722]: <info>  [1581646433.8903] dnsmasq[0x867cd40]: dnsmasq appeared as :1.26
+Feb 13 21:13:53 caleb-VirtualBox dnsmasq[868]: setting upstream servers from DBus
+Feb 13 21:13:53 caleb-VirtualBox dnsmasq[868]: using nameserver 192.168.1.1#53(via enp0s3)
+Feb 13 21:13:54 caleb-VirtualBox systemd[1]: Created slice User Slice of caleb.
+Feb 13 21:13:54 caleb-VirtualBox systemd[1]: Starting User Manager for UID 1000...
+Feb 13 21:13:54 caleb-VirtualBox systemd[1]: Started Session c1 of user caleb.
+Feb 13 21:13:54 caleb-VirtualBox systemd[974]: Reached target Sockets.
+Feb 13 21:13:54 caleb-VirtualBox systemd[974]: Reached target Timers.
+Feb 13 21:13:54 caleb-VirtualBox systemd[974]: Reached target Paths.
+Feb 13 21:13:54 caleb-VirtualBox systemd[974]: Reached target Basic System.
+Feb 13 21:13:54 caleb-VirtualBox systemd[974]: Reached target Default.
+Feb 13 21:13:54 caleb-VirtualBox systemd[974]: Startup finished in 72ms.
+Feb 13 21:13:54 caleb-VirtualBox systemd[1]: Started User Manager for UID 1000.
+Feb 13 21:13:54 caleb-VirtualBox avahi-daemon[721]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::6a35:2abe:526b:4da7.
+Feb 13 21:13:54 caleb-VirtualBox avahi-daemon[721]: New relevant interface enp0s3.IPv6 for mDNS.
+Feb 13 21:13:54 caleb-VirtualBox avahi-daemon[721]: Registering new address record for fe80::6a35:2abe:526b:4da7 on enp0s3.*.
+Feb 13 21:13:54 caleb-VirtualBox ModemManager[714]: <info>  Couldn't check support for device at '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Feb 13 21:13:54 caleb-VirtualBox org.ayatana.bamf[1117]: bamfdaemon start/running, process 1171
+Feb 13 21:13:55 caleb-VirtualBox org.a11y.Bus[1117]: ** (process:1217): WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+Feb 13 21:13:55 caleb-VirtualBox org.a11y.Bus[1117]: Activating service name='org.a11y.atspi.Registry'
+Feb 13 21:13:55 caleb-VirtualBox org.a11y.Bus[1117]: Successfully activated service 'org.a11y.atspi.Registry'
+Feb 13 21:13:55 caleb-VirtualBox org.a11y.atspi.Registry[1222]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Feb 13 21:13:56 caleb-VirtualBox snapd[712]: daemon.go:576: gracefully waiting for running hooks
+Feb 13 21:13:56 caleb-VirtualBox snapd[712]: daemon.go:578: done waiting for running hooks
+Feb 13 21:13:56 caleb-VirtualBox snapd[712]: daemon stop requested to wait for socket activation
+Feb 13 21:13:57 caleb-VirtualBox dbus[673]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service'
+Feb 13 21:13:57 caleb-VirtualBox systemd[1]: Starting Daemon for power management...
+Feb 13 21:13:57 caleb-VirtualBox dbus[673]: [system] Successfully activated service 'org.freedesktop.UPower'
+Feb 13 21:13:57 caleb-VirtualBox systemd[1]: Started Daemon for power management.
+Feb 13 21:13:57 caleb-VirtualBox NetworkManager[722]: <info>  [1581646437.5533] manager: startup complete
+Feb 13 21:13:57 caleb-VirtualBox systemd[1]: Started Network Manager Wait Online.
+Feb 13 21:13:57 caleb-VirtualBox systemd[1]: Reached target Network is Online.
+Feb 13 21:13:57 caleb-VirtualBox systemd[1]: Starting /etc/rc.local Compatibility...
+Feb 13 21:13:57 caleb-VirtualBox systemd[1]: Started crash report submission daemon.
+Feb 13 21:13:57 caleb-VirtualBox systemd[1]: Started /etc/rc.local Compatibility.
+Feb 13 21:13:57 caleb-VirtualBox systemd[1]: Starting Hold until boot process finishes up...
+Feb 13 21:13:57 caleb-VirtualBox systemd[1]: Started Hold until boot process finishes up.
+Feb 13 21:13:57 caleb-VirtualBox systemd[1]: Started Getty on tty1.
+Feb 13 21:13:57 caleb-VirtualBox systemd[1]: Reached target Login Prompts.
+Feb 13 21:13:57 caleb-VirtualBox systemd[1]: Starting Set console scheme...
+Feb 13 21:13:57 caleb-VirtualBox gnome-session[1262]: gnome-session-is-accelerated: llvmpipe detected.
+Feb 13 21:13:57 caleb-VirtualBox systemd[1]: Reached target Multi-User System.
+Feb 13 21:13:57 caleb-VirtualBox systemd[1]: Reached target Graphical Interface.
+Feb 13 21:13:57 caleb-VirtualBox systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Feb 13 21:13:57 caleb-VirtualBox whoopsie[1318]: [21:13:57] Using lock path: /var/lock/whoopsie/lock
+Feb 13 21:13:57 caleb-VirtualBox systemd[1]: Started Set console scheme.
+Feb 13 21:13:57 caleb-VirtualBox systemd[1]: Started Update UTMP about System Runlevel Changes.
+Feb 13 21:13:57 caleb-VirtualBox systemd[1]: Startup finished in 2.764s (kernel) + 8.384s (userspace) = 11.148s.
+Feb 13 21:13:58 caleb-VirtualBox whoopsie[1318]: [21:13:58] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/0
+Feb 13 21:13:58 caleb-VirtualBox whoopsie[1318]: [21:13:58] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/0
+Feb 13 21:13:58 caleb-VirtualBox whoopsie[1318]: [21:13:58] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/0
+Feb 13 21:13:58 caleb-VirtualBox dbus[673]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Feb 13 21:13:58 caleb-VirtualBox dbus[673]: [system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service'
+Feb 13 21:13:58 caleb-VirtualBox systemd[1]: Starting Manage, Install and Generate Color Profiles...
+Feb 13 21:13:58 caleb-VirtualBox colord[1417]: (colord:1417): Cd-WARNING **: failed to get edid data: EDID length is too small
+Feb 13 21:13:58 caleb-VirtualBox dbus[673]: [system] Successfully activated service 'org.freedesktop.ColorManager'
+Feb 13 21:13:58 caleb-VirtualBox systemd[1]: Started Manage, Install and Generate Color Profiles.
+Feb 13 21:13:58 caleb-VirtualBox dbus[673]: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service'
+Feb 13 21:13:58 caleb-VirtualBox systemd[1]: Starting RealtimeKit Scheduling Policy Service...
+Feb 13 21:13:58 caleb-VirtualBox dbus[673]: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+Feb 13 21:13:58 caleb-VirtualBox systemd[1]: Started RealtimeKit Scheduling Policy Service.
+Feb 13 21:13:58 caleb-VirtualBox rtkit-daemon[1428]: Successfully called chroot.
+Feb 13 21:13:58 caleb-VirtualBox rtkit-daemon[1428]: Successfully dropped privileges.
+Feb 13 21:13:58 caleb-VirtualBox rtkit-daemon[1428]: Successfully limited resources.
+Feb 13 21:13:58 caleb-VirtualBox rtkit-daemon[1428]: Running.
+Feb 13 21:13:58 caleb-VirtualBox rtkit-daemon[1428]: Watchdog thread running.
+Feb 13 21:13:58 caleb-VirtualBox rtkit-daemon[1428]: Canary thread running.
+Feb 13 21:13:58 caleb-VirtualBox rtkit-daemon[1428]: Successfully made thread 1427 of process 1427 (n/a) owned by '1000' high priority at nice level -11.
+Feb 13 21:13:58 caleb-VirtualBox rtkit-daemon[1428]: Supervising 1 threads of 1 processes of 1 users.
+Feb 13 21:13:59 caleb-VirtualBox pulseaudio[1427]: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Feb 13 21:13:59 caleb-VirtualBox pulseaudio[1427]: [pulseaudio] sink.c: Default and alternate sample rates are the same.
+Feb 13 21:13:59 caleb-VirtualBox rtkit-daemon[1428]: Supervising 1 threads of 1 processes of 1 users.
+Feb 13 21:13:59 caleb-VirtualBox rtkit-daemon[1428]: Successfully made thread 1454 of process 1427 (n/a) owned by '1000' RT at priority 5.
+Feb 13 21:13:59 caleb-VirtualBox rtkit-daemon[1428]: Supervising 2 threads of 1 processes of 1 users.
+Feb 13 21:13:59 caleb-VirtualBox pulseaudio[1427]: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Feb 13 21:13:59 caleb-VirtualBox rtkit-daemon[1428]: Supervising 2 threads of 1 processes of 1 users.
+Feb 13 21:13:59 caleb-VirtualBox rtkit-daemon[1428]: Successfully made thread 1455 of process 1427 (n/a) owned by '1000' RT at priority 5.
+Feb 13 21:13:59 caleb-VirtualBox rtkit-daemon[1428]: Supervising 3 threads of 1 processes of 1 users.
+Feb 13 21:13:59 caleb-VirtualBox org.gnome.ScreenSaver[1117]: ** (gnome-screensaver:1345): WARNING **: Couldn't get presence status: The name org.gnome.SessionManager was not provided by any .service files
+Feb 13 21:13:59 caleb-VirtualBox rtkit-daemon[1428]: Successfully made thread 1457 of process 1457 (n/a) owned by '1000' high priority at nice level -11.
+Feb 13 21:13:59 caleb-VirtualBox rtkit-daemon[1428]: Supervising 4 threads of 2 processes of 1 users.
+Feb 13 21:13:59 caleb-VirtualBox pulseaudio[1457]: [pulseaudio] pid.c: Daemon already running.
+Feb 13 21:13:59 caleb-VirtualBox dbus[673]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service'
+Feb 13 21:13:59 caleb-VirtualBox systemd[1]: Starting Locale Service...
+Feb 13 21:14:00 caleb-VirtualBox dbus[673]: [system] Successfully activated service 'org.freedesktop.locale1'
+Feb 13 21:14:00 caleb-VirtualBox systemd[1]: Started Locale Service.
+Feb 13 21:14:00 caleb-VirtualBox gnome-session[1262]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Feb 13 21:14:00 caleb-VirtualBox gnome-session[1262]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Feb 13 21:14:00 caleb-VirtualBox gnome-session[1262]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Feb 13 21:14:00 caleb-VirtualBox gnome-session-binary[1262]: Entering running state
+Feb 13 21:14:00 caleb-VirtualBox gnome-session[1262]: (process:1479): indicator-application-service-WARNING **: Unable to get watcher name 'org.kde.StatusNotifierWatcher'
+Feb 13 21:14:00 caleb-VirtualBox gnome-session[1262]: (process:1479): indicator-application-service-WARNING **: Name Lost
+Feb 13 21:14:01 caleb-VirtualBox dbus[673]: [system] Activating via systemd: service name='org.freedesktop.UDisks2' unit='udisks2.service'
+Feb 13 21:14:01 caleb-VirtualBox systemd[1]: Starting Disk Manager...
+Feb 13 21:14:01 caleb-VirtualBox udisksd[1520]: udisks daemon version 2.1.7 starting
+Feb 13 21:14:01 caleb-VirtualBox dbus[673]: [system] Successfully activated service 'org.freedesktop.UDisks2'
+Feb 13 21:14:01 caleb-VirtualBox systemd[1]: Started Disk Manager.
+Feb 13 21:14:01 caleb-VirtualBox udisksd[1520]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Feb 13 21:14:01 caleb-VirtualBox systemd[1]: Starting Snappy daemon...
+Feb 13 21:14:01 caleb-VirtualBox snapd[1532]: AppArmor status: apparmor is enabled and all features are available
+Feb 13 21:14:01 caleb-VirtualBox snapd[1532]: daemon.go:338: started snapd/2.40 (series 16; classic) ubuntu/16.04 (i386) linux/4.4.203cjralphs.
+Feb 13 21:14:01 caleb-VirtualBox kernel: [   14.906218] blk_update_request: I/O error, dev loop0, sector 0
+Feb 13 21:14:01 caleb-VirtualBox kernel: [   14.906225] blk_update_request: I/O error, dev loop0, sector 0
+Feb 13 21:14:01 caleb-VirtualBox kernel: [   14.906227] Buffer I/O error on dev loop0, logical block 0, async page read
+Feb 13 21:14:01 caleb-VirtualBox kernel: [   14.906233] blk_update_request: I/O error, dev loop0, sector 0
+Feb 13 21:14:01 caleb-VirtualBox kernel: [   14.906234] Buffer I/O error on dev loop0, logical block 0, async page read
+Feb 13 21:14:01 caleb-VirtualBox kernel: [   14.906238] blk_update_request: I/O error, dev loop0, sector 0
+Feb 13 21:14:01 caleb-VirtualBox kernel: [   14.906239] Buffer I/O error on dev loop0, logical block 0, async page read
+Feb 13 21:14:01 caleb-VirtualBox kernel: [   14.906243] blk_update_request: I/O error, dev loop0, sector 0
+Feb 13 21:14:01 caleb-VirtualBox kernel: [   14.906244] Buffer I/O error on dev loop0, logical block 0, async page read
+Feb 13 21:14:01 caleb-VirtualBox kernel: [   14.906247] blk_update_request: I/O error, dev loop0, sector 0
+Feb 13 21:14:01 caleb-VirtualBox kernel: [   14.906249] Buffer I/O error on dev loop0, logical block 0, async page read
+Feb 13 21:14:01 caleb-VirtualBox kernel: [   14.906252] blk_update_request: I/O error, dev loop0, sector 0
+Feb 13 21:14:01 caleb-VirtualBox kernel: [   14.906254] Buffer I/O error on dev loop0, logical block 0, async page read
+Feb 13 21:14:01 caleb-VirtualBox kernel: [   14.906258] blk_update_request: I/O error, dev loop0, sector 0
+Feb 13 21:14:01 caleb-VirtualBox kernel: [   14.906259] Buffer I/O error on dev loop0, logical block 0, async page read
+Feb 13 21:14:01 caleb-VirtualBox kernel: [   14.906262] blk_update_request: I/O error, dev loop0, sector 0
+Feb 13 21:14:01 caleb-VirtualBox kernel: [   14.906264] Buffer I/O error on dev loop0, logical block 0, async page read
+Feb 13 21:14:01 caleb-VirtualBox kernel: [   14.906267] blk_update_request: I/O error, dev loop0, sector 0
+Feb 13 21:14:01 caleb-VirtualBox kernel: [   14.906268] Buffer I/O error on dev loop0, logical block 0, async page read
+Feb 13 21:14:01 caleb-VirtualBox kernel: [   14.906274] Buffer I/O error on dev loop0, logical block 0, async page read
+Feb 13 21:14:01 caleb-VirtualBox systemd[1]: Started Snappy daemon.
+Feb 13 21:14:01 caleb-VirtualBox dbus[673]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service'
+Feb 13 21:14:01 caleb-VirtualBox systemd[1]: Starting Firmware update daemon...
+Feb 13 21:14:01 caleb-VirtualBox NetworkManager[722]: <info>  [1581646441.5530] manager: WiFi hardware radio set enabled
+Feb 13 21:14:01 caleb-VirtualBox NetworkManager[722]: <info>  [1581646441.5530] manager: WWAN hardware radio set enabled
+Feb 13 21:14:02 caleb-VirtualBox org.gtk.vfs.AfcVolumeMonitor[1117]: Volume monitor alive
+Feb 13 21:14:05 caleb-VirtualBox fwupd[1562]: (fwupd:1562): Fu-WARNING **: FuMain: failed to get USB context: failed to init libusb: Other error [-99]
+Feb 13 21:14:05 caleb-VirtualBox systemd[1]: fwupd.service: Main process exited, code=exited, status=1/FAILURE
+Feb 13 21:14:05 caleb-VirtualBox systemd[1]: Failed to start Firmware update daemon.
+Feb 13 21:14:05 caleb-VirtualBox systemd[1]: fwupd.service: Unit entered failed state.
+Feb 13 21:14:05 caleb-VirtualBox systemd[1]: fwupd.service: Failed with result 'exit-code'.
+Feb 13 21:14:06 caleb-VirtualBox org.gnome.ScreenSaver[1117]: ** Message: Lost the name, shutting down.
+Feb 13 21:14:06 caleb-VirtualBox snapd[1532]: daemon.go:576: gracefully waiting for running hooks
+Feb 13 21:14:06 caleb-VirtualBox snapd[1532]: daemon.go:578: done waiting for running hooks
+Feb 13 21:14:06 caleb-VirtualBox snapd[1532]: daemon stop requested to wait for socket activation
+Feb 13 21:25:29 caleb-VirtualBox systemd-timesyncd[295]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+Feb 13 21:25:29 caleb-VirtualBox systemd[974]: Time has been changed
+Feb 13 21:25:29 caleb-VirtualBox systemd[1]: Time has been changed
+Feb 13 21:25:29 caleb-VirtualBox org.gnome.zeitgeist.Engine[1117]: ** (zeitgeist-datahub:1691): WARNING **: zeitgeist-datahub.vala:229: Unable to get name "org.gnome.zeitgeist.datahub" on the bus!
+Feb 13 21:25:31 caleb-VirtualBox pulseaudio[1427]: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out
+Feb 13 21:26:15 caleb-VirtualBox kernel: [   79.866454] part2: loading out-of-tree module taints kernel.
+Feb 13 21:26:15 caleb-VirtualBox kernel: [   79.866502] part2: module verification failed: signature and/or required key missing - tainting kernel
+Feb 13 21:26:15 caleb-VirtualBox kernel: [   80.484513] Interceptor: Found syscall table at address: 0xC17F3240
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   80.484516] Loaded interceptor!<6>[   86.572529] Current: 1722
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572534] Ancestor 0: 1715
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572535] Ancestor 1: 1005
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572536] Ancestor 2: 952
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572537] Ancestor 3: 825
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572539] Ancestor 4: 1
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572540] Ancestor 5: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572541] Ancestor 6: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572542] Ancestor 7: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572543] Ancestor 8: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572544] Ancestor 9: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572549] Child 0: 209
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572551] Child 1: 224
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572552] Child 2: 295
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572553] Child 3: 644
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572555] Child 4: 657
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572556] Child 5: 673
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572557] Child 6: 697
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572558] Child 7: 700
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572559] Child 8: 714
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572560] Child 9: 721
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572561] Child 10: 722
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572563] Child 11: 738
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572564] Child 12: 740
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572565] Child 13: 803
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572566] Child 14: 806
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572567] Child 15: 812
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572568] Child 16: 825
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572570] Child 17: 974
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572571] Child 18: 1290
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572572] Child 19: 1318
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572573] Child 20: 1326
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572574] Child 21: 1417
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572575] Child 22: 1428
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572577] Child 23: 1520
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572578] Child 24: -152720256
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572579] Child 25: -218413568
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572581] Child 26: -168215808
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572582] Child 27: -1055392557
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572583] Child 28: -168215752
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572584] Child 29: -168215664
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572585] Child 30: -1053183333
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572587] Child 31: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572588] Child 32: 34148896
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572589] Child 33: -1056755480
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572590] Child 34: -168215764
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572591] Child 35: 66895872
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572593] Child 36: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572594] Child 37: 66895872
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572595] Child 38: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572596] Child 39: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572597] Child 40: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572598] Child 41: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572599] Child 42: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572601] Child 43: 16777219
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572602] Child 44: -218818304
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572603] Child 45: 4096
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572604] Child 46: -179740672
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572606] Child 47: -149103040
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572607] Child 48: 2079259770
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572608] Child 49: 5
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572609] Child 50: -178728448
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572611] Child 51: -149103040
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572612] Child 52: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572613] Child 53: -168215644
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572614] Child 54: -1056275325
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572615] Child 55: -218413500
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572616] Child 56: -168891904
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572618] Child 57: -168891904
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572619] Child 58: -168215624
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572620] Child 59: -1056275175
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572621] Child 60: -338485284
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572622] Child 61: -179740672
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572623] Child 62: -168894332
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572624] Child 63: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572626] Child 64: 1
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572627] Child 65: 1
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572628] Child 66: -145314136
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572629] Child 67: -1046334233
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572630] Child 68: -168215608
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572632] Child 69: -1056522714
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572633] Child 70: 5
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572634] Child 71: 1
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572635] Child 72: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572636] Child 73: 1
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572638] Child 74: -142854496
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572639] Child 75: -1046334233
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572640] Child 76: -168215576
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572641] Child 77: -1056522714
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572642] Child 78: -168215600
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572643] Child 79: 1
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572645] Child 80: -168215480
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572646] Child 81: -1055371315
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572647] Child 82: 2
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572648] Child 83: 1
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572649] Child 84: -142854456
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572650] Child 85: -1046334233
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572651] Child 86: -168215568
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572653] Child 87: 1
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572654] Child 88: -168215448
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572655] Child 89: -1055371315
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572656] Child 90: 2
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572658] Child 91: 449
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572659] Child 92: 26831
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572660] Child 93: 128
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572661] Child 94: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572662] Child 95: -1044722688
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572663] Child 96: 1
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572665] Child 97: -1044725748
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572666] Child 98: -1044722688
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572667] Child 99: 1
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572668] Sibling 0: 2
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572669] Sibling 1: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572671] Sibling 2: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572672] Sibling 3: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572673] Sibling 4: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572674] Sibling 5: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572675] Sibling 6: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572676] Sibling 7: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572677] Sibling 8: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572678] Sibling 9: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572680] Sibling 10: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572681] Sibling 11: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572682] Sibling 12: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572683] Sibling 13: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572685] Sibling 14: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572686] Sibling 15: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572687] Sibling 16: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572688] Sibling 17: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572689] Sibling 18: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572690] Sibling 19: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572691] Sibling 20: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572692] Sibling 21: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572694] Sibling 22: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572695] Sibling 23: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572696] Sibling 24: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572697] Sibling 25: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572698] Sibling 26: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572699] Sibling 27: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572700] Sibling 28: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572702] Sibling 29: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572703] Sibling 30: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572704] Sibling 31: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572705] Sibling 32: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572706] Sibling 33: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572707] Sibling 34: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572709] Sibling 35: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572710] Sibling 36: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572711] Sibling 37: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572712] Sibling 38: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572713] Sibling 39: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572714] Sibling 40: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572715] Sibling 41: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572717] Sibling 42: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572718] Sibling 43: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572719] Sibling 44: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572720] Sibling 45: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572721] Sibling 46: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572722] Sibling 47: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572723] Sibling 48: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572725] Sibling 49: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572726] Sibling 50: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572727] Sibling 51: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572728] Sibling 52: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572729] Sibling 53: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572730] Sibling 54: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572731] Sibling 55: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572733] Sibling 56: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572734] Sibling 57: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572735] Sibling 58: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572736] Sibling 59: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572738] Sibling 60: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572739] Sibling 61: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572740] Sibling 62: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572741] Sibling 63: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572742] Sibling 64: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572743] Sibling 65: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572744] Sibling 66: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572746] Sibling 67: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572747] Sibling 68: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572748] Sibling 69: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572749] Sibling 70: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572750] Sibling 71: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572751] Sibling 72: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572752] Sibling 73: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572753] Sibling 74: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572755] Sibling 75: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572756] Sibling 76: -1055392557
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572757] Sibling 77: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572758] Sibling 78: 34148896
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572759] Sibling 79: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572761] Sibling 80: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572762] Sibling 81: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572763] Sibling 82: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572764] Sibling 83: -155182656
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572765] Sibling 84: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572766] Sibling 85: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572768] Sibling 86: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572769] Sibling 87: -2146107371
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572770] Sibling 88: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572771] Sibling 89: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572772] Sibling 90: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572773] Sibling 91: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572774] Sibling 92: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572776] Sibling 93: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572777] Sibling 94: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572778] Sibling 95: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572779] Sibling 96: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572780] Sibling 97: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572781] Sibling 98: 0
+Feb 13 21:26:21 caleb-VirtualBox kernel: [   86.572782] Sibling 99: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320362] Current: 1722
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320366] Ancestor 0: 1715
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320368] Ancestor 1: 1005
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320369] Ancestor 2: 952
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320370] Ancestor 3: 825
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320371] Ancestor 4: 1
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320372] Ancestor 5: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320373] Ancestor 6: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320374] Ancestor 7: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320375] Ancestor 8: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320376] Ancestor 9: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320381] Child 0: 209
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320382] Child 1: 224
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320383] Child 2: 295
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320384] Child 3: 644
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320385] Child 4: 657
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320386] Child 5: 673
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320387] Child 6: 697
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320388] Child 7: 700
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320389] Child 8: 714
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320390] Child 9: 721
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320391] Child 10: 722
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320393] Child 11: 738
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320394] Child 12: 740
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320395] Child 13: 803
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320396] Child 14: 806
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320397] Child 15: 812
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320398] Child 16: 825
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320399] Child 17: 974
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320400] Child 18: 1290
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320401] Child 19: 1318
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320402] Child 20: 1326
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320403] Child 21: 1417
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320404] Child 22: 1428
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320405] Child 23: 1520
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320406] Child 24: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320407] Child 25: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320408] Child 26: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320409] Child 27: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320410] Child 28: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320412] Child 29: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320413] Child 30: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320414] Child 31: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320415] Child 32: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320416] Child 33: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320417] Child 34: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320418] Child 35: -245926544
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320419] Child 36: 1
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320420] Child 37: 3146006
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320421] Child 38: -218301636
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320422] Child 39: -1052995633
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320423] Child 40: -218301644
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320424] Child 41: -245306208
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320426] Child 42: 2077159636
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320427] Child 43: 1
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320428] Child 44: -165265296
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320429] Child 45: 1
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320430] Child 46: -218301596
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320431] Child 47: -1054077952
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320432] Child 48: -225684224
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320433] Child 49: -224530240
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320434] Child 50: 32
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320435] Child 51: -225684224
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320436] Child 52: -179417600
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320437] Child 53: -218301516
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320439] Child 54: -1054075434
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320440] Child 55: 3157698
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320441] Child 56: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320442] Child 57: -218301388
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320443] Child 58: -224626232
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320444] Child 59: 559
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320445] Child 60: 1
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320446] Child 61: -224555352
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320447] Child 62: 1
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320448] Child 63: -218301528
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320449] Child 64: -1054077952
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320450] Child 65: 1
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320451] Child 66: -145314136
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320453] Child 67: -1046334233
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320454] Child 68: -218301496
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320455] Child 69: -1056522714
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320456] Child 70: -218301448
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320457] Child 71: -1054075434
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320458] Child 72: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320459] Child 73: 1
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320460] Child 74: -142969816
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320461] Child 75: -1046334233
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320462] Child 76: -218301464
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320463] Child 77: -1056522714
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320464] Child 78: -218301488
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320466] Child 79: 1
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320467] Child 80: -218301368
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320468] Child 81: -1055371315
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320469] Child 82: 2
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320470] Child 83: 1
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320471] Child 84: -142969776
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320472] Child 85: -1046334233
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320473] Child 86: -218301456
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320474] Child 87: 1
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320475] Child 88: -218301336
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320476] Child 89: -1055371315
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320477] Child 90: 2
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320478] Child 91: 449
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320479] Child 92: 26771
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320481] Child 93: 128
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320482] Child 94: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320483] Child 95: -1044722688
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320484] Child 96: 1
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320485] Child 97: -1044725748
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320486] Child 98: -1044722688
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320487] Child 99: 1
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320488] Sibling 0: 2
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320489] Sibling 1: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320490] Sibling 2: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320491] Sibling 3: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320492] Sibling 4: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320493] Sibling 5: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320494] Sibling 6: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320495] Sibling 7: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320497] Sibling 8: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320498] Sibling 9: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320499] Sibling 10: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320500] Sibling 11: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320501] Sibling 12: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320502] Sibling 13: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320503] Sibling 14: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320504] Sibling 15: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320505] Sibling 16: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320506] Sibling 17: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320507] Sibling 18: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320508] Sibling 19: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320509] Sibling 20: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320510] Sibling 21: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320511] Sibling 22: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320512] Sibling 23: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320513] Sibling 24: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320514] Sibling 25: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320515] Sibling 26: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320516] Sibling 27: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320518] Sibling 28: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320519] Sibling 29: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320520] Sibling 30: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320521] Sibling 31: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320522] Sibling 32: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320523] Sibling 33: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320524] Sibling 34: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320525] Sibling 35: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320526] Sibling 36: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320527] Sibling 37: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320528] Sibling 38: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320529] Sibling 39: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320530] Sibling 40: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320531] Sibling 41: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320532] Sibling 42: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320533] Sibling 43: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320534] Sibling 44: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320535] Sibling 45: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320536] Sibling 46: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320537] Sibling 47: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320538] Sibling 48: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320539] Sibling 49: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320540] Sibling 50: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320542] Sibling 51: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320543] Sibling 52: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320544] Sibling 53: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320545] Sibling 54: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320546] Sibling 55: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320547] Sibling 56: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320548] Sibling 57: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320549] Sibling 58: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320550] Sibling 59: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320551] Sibling 60: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320552] Sibling 61: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320553] Sibling 62: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320554] Sibling 63: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320555] Sibling 64: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320556] Sibling 65: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320557] Sibling 66: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320558] Sibling 67: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320559] Sibling 68: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320560] Sibling 69: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320561] Sibling 70: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320562] Sibling 71: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320563] Sibling 72: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320564] Sibling 73: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320566] Sibling 74: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320567] Sibling 75: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320568] Sibling 76: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320569] Sibling 77: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320570] Sibling 78: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320571] Sibling 79: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320572] Sibling 80: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320573] Sibling 81: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320574] Sibling 82: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320575] Sibling 83: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320576] Sibling 84: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320577] Sibling 85: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320578] Sibling 86: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320579] Sibling 87: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320580] Sibling 88: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320581] Sibling 89: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320582] Sibling 90: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320583] Sibling 91: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320584] Sibling 92: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320585] Sibling 93: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320586] Sibling 94: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320587] Sibling 95: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320588] Sibling 96: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320589] Sibling 97: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320591] Sibling 98: 0
+Feb 13 21:27:06 caleb-VirtualBox kernel: [  131.320592] Sibling 99: 0
+Feb 13 21:27:23 caleb-VirtualBox dbus[673]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Feb 13 21:27:23 caleb-VirtualBox systemd[1]: Starting Hostname Service...
+Feb 13 21:27:23 caleb-VirtualBox dbus[673]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Feb 13 21:27:23 caleb-VirtualBox systemd[1]: Started Hostname Service.
+Feb 13 21:27:23 caleb-VirtualBox gnome-session[1262]: Nautilus-Share-Message: Called "net usershare info" but it failed: Failed to execute child process "net" (No such file or directory)
+Feb 13 21:27:26 caleb-VirtualBox org.gtk.vfs.Daemon[1117]: ** (gvfsd:1190): WARNING **: dbus_mount_reply: Error from org.gtk.vfs.Mountable.mount(): Failed to retrieve share list from server: Connection refused
+Feb 13 21:27:26 caleb-VirtualBox org.gtk.vfs.Daemon[1117]: ** (process:2279): WARNING **: Couldn't create directory monitor on smb://x-gnome-default-workgroup/. Error: The specified location is not mounted
+Feb 13 21:27:30 caleb-VirtualBox org.gtk.vfs.Daemon[1117]: ** (gvfsd:1190): WARNING **: dbus_mount_reply: Error from org.gtk.vfs.Mountable.mount(): Failed to retrieve share list from server: Connection refused
+Feb 13 21:27:30 caleb-VirtualBox org.gtk.vfs.Daemon[1117]: ** (process:2288): WARNING **: Couldn't create directory monitor on smb://x-gnome-default-workgroup/. Error: The specified location is not mounted
+Feb 13 21:27:41 caleb-VirtualBox org.gnome.zeitgeist.SimpleIndexer[1117]: ** (zeitgeist-fts:1690): WARNING **: Unable to get info on application://nautilus-autostart.desktop
