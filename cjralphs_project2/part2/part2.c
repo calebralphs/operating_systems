@@ -51,6 +51,9 @@ asmlinkage long new_sys_cs3013_syscall2(unsigned short *target_pid, struct ances
         response_kernel_space.children[i] = child_task->pid;
         i += 1;
     }
+    for (i = 0; i < 100; i++) {
+        printk(KERN_INFO "Child %d: %d\n", i, response_kernel_space.children[i]);
+    }
 
     i = 0;
     // Sibling
@@ -60,6 +63,9 @@ asmlinkage long new_sys_cs3013_syscall2(unsigned short *target_pid, struct ances
         sibling_task = list_entry(cursor, struct task_struct, sibling); 
         response_kernel_space.siblings[i] = sibling_task->pid;
         i += 1;
+    }
+    for (i = 0; i < 10; i++) {
+        printk(KERN_INFO "Sibling %d: %d\n", i, response_kernel_space.siblings[i]);
     }
 
     if (copy_to_user(response, &response_kernel_space, sizeof(struct ancestry))) {
