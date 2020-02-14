@@ -17,7 +17,7 @@ asmlinkage long new_sys_cs3013_syscall2(unsigned short *target_pid, struct ances
     int i = 0;
     struct task_struct* current_task = current;
     int current_pid = current_task->pid;
-    struct task_struct* child_head = current.children;
+    struct list_head* child_head = current.children;
     struct task_struct child_cursor;
     struct task_struct* sibling = current->siblings;
 
@@ -29,7 +29,7 @@ asmlinkage long new_sys_cs3013_syscall2(unsigned short *target_pid, struct ances
     }
     // build out response_kernel_space;
 
-    printk(KERN_INFO "CURRENT TASK STRUCT PID: %d\n", current_pid);
+    printk(KERN_INFO "Current: %d\n", current_pid);
     while (current_pid > 1 && i < 10) {
         current_task = current_task->parent;
         current_pid = current_task->pid;
