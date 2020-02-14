@@ -27,7 +27,7 @@ asmlinkage long new_sys_cs3013_syscall2(unsigned short *target_pid, struct ances
     while (current_pid > 1 && i < 10) {
         current_task = current_task->parent;
         current_pid = current_task->pid;
-	    response_kernel_space.ancestors[i] = current_pid;
+	    response_kernel_space.ancestors[i] = (pid_t)current_pid;
         printk(KERN_INFO "PARENT %d TASK STRUCT PID: %d\n", i, current_pid);
         i += 1;
     }
